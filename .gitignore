@@ -1,0 +1,36 @@
+# Rust
+/target
+**/target
+Cargo.lock
+*.rs.bk
+
+# Tauri
+src-tauri/target
+src-tauri/gen
+src-tauri/WixTools
+src-ui/node_modules
+src-ui/dist
+
+# IDEs
+.vscode
+.idea
+*.iml
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local env
+.env
+.env.local
+.env.*.local
+
+# Build artifacts
+*.msi
+*.msix
+*.zip
+*.exe

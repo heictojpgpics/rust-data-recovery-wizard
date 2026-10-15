@@ -1,0 +1,95 @@
+[workspace]
+resolver = "2"
+members = [
+    "src-rust/core",
+    "src-rust/fs-ntfs",
+    "src-rust/fs-fat",
+    "src-rust/fs-exfat",
+    "src-rust/fs-hfs",
+    "src-rust/fs-ext",
+    "src-rust/fs-btrfs",
+    "src-rust/fs-refs",
+    "src-rust/fs-zfs",
+    "src-rust/carving",
+    "src-rust/signatures",
+    "src-rust/io",
+    "src-rust/engine",
+    "src-rust/ipc",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.99"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/heictojpgpics/rust-data-recovery-wizard"
+authors = ["RDW Project"]
+description = "State-of-the-art data recovery wizard — Rust core"
+
+[workspace.dependencies]
+# Error handling
+thiserror = "1.0"
+anyhow = "1.0"
+
+# Logging / tracing
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter", "fmt"] }
+
+# Serialization
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# Async
+tokio = { version = "1", features = ["full"] }
+
+# Concurrency primitives
+parking_lot = "0.12"
+dashmap = "6.0"
+
+# Cache
+moka = { version = "0.12", features = ["future"] }
+
+# Byte parsing
+bytes = "1.7"
+bytemuck = { version = "1.18", features = ["derive"] }
+zerocopy = { version = "0.8", features = ["derive"] }
+
+# Time
+time = { version = "0.3", features = ["serde", "formatting", "parsing"] }
+
+# UUIDs (for ReFS object IDs)
+uuid = { version = "1.10", features = ["v4", "serde"] }
+
+# Hashing (for content fingerprinting)
+xxhash-rust = { version = "0.8", features = ["xxh3", "xxh64"] }
+
+# Internal crates (path-relative)
+rdw-core = { path = "src-rust/core" }
+rdw-fs-ntfs = { path = "src-rust/fs-ntfs" }
+rdw-fs-fat = { path = "src-rust/fs-fat" }
+rdw-fs-exfat = { path = "src-rust/fs-exfat" }
+rdw-fs-hfs = { path = "src-rust/fs-hfs" }
+rdw-fs-ext = { path = "src-rust/fs-ext" }
+rdw-fs-btrfs = { path = "src-rust/fs-btrfs" }
+rdw-fs-refs = { path = "src-rust/fs-refs" }
+rdw-fs-zfs = { path = "src-rust/fs-zfs" }
+rdw-carving = { path = "src-rust/carving" }
+rdw-signatures = { path = "src-rust/signatures" }
+rdw-io = { path = "src-rust/io" }
+rdw-engine = { path = "src-rust/engine" }
+rdw-ipc = { path = "src-rust/ipc" }
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+strip = true
+panic = "abort"
+
+[profile.dev]
+opt-level = 0
+debug = true
+
+[profile.bench]
+inherits = "release"
+debug = true

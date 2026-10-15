@@ -1,0 +1,94 @@
+name: rust-ci
+
+on:
+  push:
+    branches: [main, "release/**"]
+    paths:
+      - "src-rust/**"
+      - "Cargo.toml"
+      - "Cargo.lock"
+      - "rust-toolchain.toml"
+      - ".github/workflows/rust-ci.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "src-rust/**"
+      - "Cargo.toml"
+      - "Cargo.lock"
+      - "rust-toolchain.toml"
+      - ".github/workflows/rust-ci.yml"
+  workflow_dispatch:
+
+# Cancel superseded runs on the same ref so we don't queue up stale jobs.
+concurrency:
+  group: rust-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  CARGO_TERM_COLOR: always
+  RUST_BACKTRACE: 1
+  RUSTFLAGS: "-D warnings"
+
+jobs:
+  fmt:
+    name: rustfmt
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt
+      - name: Cargo fmt --check
+        run: cargo fmt --all -- --check
+
+  clippy:
+    name: clippy
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: clippy
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: ". -> target"
+      - name: Cargo clippy
+        run: cargo clippy --workspace --all-targets -- -D warnings
+
+  test:
+    name: test (linux)
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: ". -> target"
+      - name: Cargo test
+        run: cargo test --workspace --no-fail-fast
+
+  build-windows:
+    name: build (windows, release)
+    runs-on: windows-2022
+    needs: [fmt, clippy, test]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: x86_64-pc-windows-msvc
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: ". -> target"
+          key: windows-release
+      - name: Cargo build (release)
+        run: cargo build --release --workspace
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: rust-core-windows-release
+          path: |
+            target/release/*.exe
+            target/release/*.dll
+            target/release/*.pdb
+          if-no-files-found: warn
+          retention-days: 14
