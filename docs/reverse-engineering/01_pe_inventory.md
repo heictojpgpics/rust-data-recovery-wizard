@@ -1,0 +1,130 @@
+# PE Binary Inventory — Pass 1
+
+Generated: 2026-10-15T13:35:10.054139Z
+Total binaries: 123
+
+| File | Size | Machine | Subsystem | .NET | PDB | Timestamp |
+|------|------|---------|-----------|------|-----|-----------|
+| 7za.exe | 596936 | i386 | WINDOWS_CUI | no |  | 2011-04-18T18:54:04Z |
+| AliyunWrap.dll | 624144 | AMD64 | WINDOWS_GUI | no | H:\AWork\UserInfoCollect\x64\Release\AliyunWrap.pdb | 2025-12-23T08:56:04Z |
+| AliyunWrapExe.exe | 224272 | AMD64 | WINDOWS_GUI | no | H:\AWork\UserInfoCollect\x64\Release\AliyunWrapExe.pdb | 2025-12-23T08:56:06Z |
+| BtrfsSearchDLL.dll | 150760 | AMD64 | WINDOWS_GUI | no | E:\DRW\_drw_main\DRWIntelligentScan\bin\Release\x64\BtrfsSearchDLL.pdb | 2026-10-13T05:29:31Z |
+| DRW.exe | 127208 | AMD64 | WINDOWS_GUI | no | E:\DRW\_drw_main\DRWIntelligentScan\DRWLoader\x64\Release\DRWLoader.pdb | 2026-10-13T05:29:42Z |
+| DRWReport.exe | 4805352 | AMD64 | WINDOWS_GUI | no | E:\AWork\DRW_VS17_Main\DRWIntelligentScan\DRWReport\Release\XCrashReport.pdb | 2023-07-18T07:32:09Z |
+| DRWService.exe | 40168 | AMD64 | WINDOWS_GUI | no | E:\DRW\_drw_main\DRWIntelligentScan\bin\Release\x64\BitlockerReadFVEService.pdb | 2026-10-13T05:28:45Z |
+| DRWUI.exe | 30571752 | AMD64 | WINDOWS_GUI | no | E:\DRW\_drw_main\DRWIntelligentScan\bin\Release\x64\DRWUI.pdb | 2026-10-13T05:39:11Z |
+| EUAdobeRepair.exe | 434408 | i386 | WINDOWS_CUI | no | D:\Fixo\01_Project\00_Source\_main\UI\bin\Release\Win32\EUAdobeRepair.pdb | 2026-07-19T18:03:45Z |
+| EUArchiveRepair.exe | 602344 | i386 | WINDOWS_CUI | no | D:\Fixo\01_Project\00_Source\_main\UI\bin\Release\Win32\EUArchiveRepair.pdb | 2026-07-19T18:02:50Z |
+| EUHwpFilePathCheckerModule.dll | 155880 | i386 | WINDOWS_GUI | no | e:\AWork\DRW16.2.1-QT\DRWIntelligentScan\bin\Release\ShareBin\EUHwpFilePathCheckerModule.pdb | 2023-07-26T08:42:09Z |
+| EUHwpViewer.exe | 422120 | i386 | WINDOWS_GUI | no | e:\AWork\DRW16.2.1-QT\DRWIntelligentScan\bin\Release\ShareBin\EUHwpViewer.pdb | 2023-07-26T08:42:14Z |
+| EUImageEnhance.dll | 3056872 | i386 | WINDOWS_GUI | no | D:\drw\DRW_MAIN\DRWIntelligentScan\bin\Release\ImageEnhance.pdb | 2020-07-08T01:44:58Z |
+| EUImgRepair.exe | 203496 | i386 | WINDOWS_CUI | no | D:\WorkSpace\_drw_main_code\DRWIntelligentScan\bin\Release\Win32\EUImgRepair.pdb | 2025-04-03T08:34:08Z |
+| EUOfficeViewer.exe | 3088104 | AMD64 | WINDOWS_GUI | no | E:\AWork\_drw_main\DRWIntelligentScan\bin\Release\x64\EUOfficeViewer.pdb | 2026-03-13T02:13:01Z |
+| EURawImg.exe | 736488 | AMD64 | WINDOWS_CUI | no | E:\DRW\_drw_main\DRWIntelligentScan\bin\Release\x64\EURawImg.pdb | 2026-10-13T05:28:15Z |
+| EUUnZip.exe | 255208 | i386 | WINDOWS_CUI | no | \\192.168.0.242\公司交换区\L_吕天宇\EUUnZip\Release\EUUnZip.pdb | 2022-01-14T02:02:02Z |
+| EUVideoRepair.dll | 948456 | AMD64 | WINDOWS_GUI | no | E:\DRW\_drw_main\DRWIntelligentScan\bin\Release\x64\EUVideoRepair.pdb | 2026-10-13T05:39:46Z |
+| EUinApp.exe | 37608 | i386 | WINDOWS_CUI | no | e:\AWork\share_lib\99_PublicLibrary\EUSetWebCtrlIEVersion\x86\EUinApp.pdb | 2023-12-28T01:28:28Z |
+| EXT4SearchDLL.dll | 129256 | AMD64 | WINDOWS_GUI | no | E:\DRW\_drw_main\DRWIntelligentScan\bin\Release\x64\EXT4SearchDLL.pdb | 2026-10-13T05:30:29Z |
+| EuDownloader.exe | 1381608 | i386 | WINDOWS_CUI | no | E:\AWork\DRW15.8AB3\sharelib\EuDownloadPublicLibrary\x86\exe\EuDownload.pdb | 2022-10-13T08:46:33Z |
+| EuICloudRecovery.dll | 7187688 | AMD64 | WINDOWS_CUI | no | H:\VS_SPACE\es_icloud_recovery\build\Release\EuICloudRecovery.pdb | 2026-09-23T06:07:22Z |
+| EuOfficeRepairWin32.exe | 2739432 | AMD64 | WINDOWS_GUI | no | E:\DRW\_drw_main\DRWIntelligentScan\bin\Release\x64\OfficeRepairWin32.pdb | 2026-10-13T05:39:53Z |
+| EuOfficeTools.exe | 1653480 | AMD64 | WINDOWS_CUI | no | H:\DRW15.8AB3\DRWIntelligentScan\bin\Release\x64\EuOfficeTools.pdb | 2023-06-25T04:53:52Z |
+| EuRepairHost.exe | 23784 | i386 | WINDOWS_CUI | no | i:\_drw_main_\RepairHost\Release\EuRepairHost.pdb | 2021-06-23T02:05:44Z |
+| EuUserRate.dll | 1619176 | i386 | WINDOWS_GUI | no | E:\AWork\share_lib\99_PublicLibrary\userrate\source\Output\Release\EuUserRate.pdb | 2018-10-11T05:35:19Z |
+| FATSearchDLL.dll | 469224 | AMD64 | WINDOWS_GUI | no | E:\DRW\_drw_main\DRWIntelligentScan\bin\Release\x64\FATSearchDLL.pdb | 2026-10-13T05:30:44Z |
+| HFSPlusSearchDLL.dll | 185064 | AMD64 | WINDOWS_GUI | no | E:\DRW\_drw_main\DRWIntelligentScan\bin\Release\x64\HFSPlusSearchDLL.pdb | 2026-10-13T05:31:21Z |
+| InfoForSetup.exe | 117776 | AMD64 | WINDOWS_GUI | no | H:\AWork\UserInfoCollect\x64\Release\InfoForSetup.pdb | 2025-12-23T08:56:05Z |
+| Japanese.dll | 4206312 | i386 | WINDOWS_GUI | no | D:\drw\drw_main\MultLanguage\Japanese\Release\Japanese.pdb | 2015-10-19T07:26:29Z |
+| NTFSSearchDLL.dll | 577256 | AMD64 | WINDOWS_GUI | no | E:\DRW\_drw_main\DRWIntelligentScan\bin\Release\x64\NTFSSearchDLL.pdb | 2026-10-13T05:31:52Z |
+| PDFViewer.exe | 2974952 | AMD64 | WINDOWS_GUI | no | E:\DRW\_drw_main\DRWIntelligentScan\bin\Release\x64\PDFViewer.pdb | 2026-10-13T05:29:07Z |
+| PE_Tools.dll | 976104 | AMD64 | WINDOWS_GUI | no | E:\DRW\_drw_main\DRWIntelligentScan\bin\Release\x64\PE_Tools.pdb | 2026-10-13T05:39:58Z |
+| PubLog.dll | 29928 | AMD64 | WINDOWS_GUI | no | E:\DRW\_drw_main\DRWIntelligentScan\bin\Release\x64\PubLog.pdb | 2026-10-13T05:29:12Z |
+| Qt5Core.dll | 6162552 | AMD64 | WINDOWS_GUI | no | C:\Users\qt\work\qt\qtbase\lib\Qt5Core.pdb | 2020-01-23T09:45:46Z |
+| Qt5Gui.dll | 7160952 | AMD64 | WINDOWS_GUI | no | C:\Users\qt\work\qt\qtbase\lib\Qt5Gui.pdb | 2020-01-23T09:48:49Z |
+| Qt5Network.dll | 1426552 | AMD64 | WINDOWS_GUI | no | C:\Users\qt\work\qt\qtbase\lib\Qt5Network.pdb | 2020-01-23T09:47:54Z |
+| Qt5Svg.dll | 358520 | AMD64 | WINDOWS_GUI | no | C:\Users\qt\work\qt\qtsvg\lib\Qt5Svg.pdb | 2020-01-23T16:38:12Z |
+| Qt5Widgets.dll | 5593720 | AMD64 | WINDOWS_GUI | no | C:\Users\qt\work\qt\qtbase\lib\Qt5Widgets.pdb | 2020-01-23T09:51:19Z |
+| Qt5WinExtras.dll | 468600 | AMD64 | WINDOWS_GUI | no | C:\Users\qt\work\qt\qtwinextras\lib\Qt5WinExtras.pdb | 2020-01-23T17:41:21Z |
+| RAWSearchDLL.dll | 644840 | AMD64 | WINDOWS_GUI | no | E:\DRW\_drw_main\DRWIntelligentScan\bin\Release\x64\RAWSearchDLL.pdb | 2026-10-13T05:32:32Z |
+| ReFSSearchDLL.dll | 154856 | AMD64 | WINDOWS_GUI | no | E:\DRW\_drw_main\DRWIntelligentScan\bin\Release\x64\ReFSSearchDLL.pdb | 2026-10-13T05:32:37Z |
+| SetupUE.exe | 177384 | i386 | WINDOWS_GUI | no | E:\AWork\_drw_main\SetupUE\Release\SetupUE.pdb | 2024-07-05T01:07:22Z |
+| ZfsSearchDLL.dll | 275176 | AMD64 | WINDOWS_CUI | no | E:\DRW\_drw_main\DRWIntelligentScan\bin\Release\x64\ZfsSearchDLL.pdb | 2026-10-13T05:32:49Z |
+| api-ms-win-core-console-l1-1-0.dll | 19136 | AMD64 | WINDOWS_CUI | no | api-ms-win-core-console-l1-1-0.pdb | 2017-01-06T05:26:50Z |
+| api-ms-win-core-datetime-l1-1-0.dll | 18112 | AMD64 | WINDOWS_CUI | no | api-ms-win-core-datetime-l1-1-0.pdb | 2017-01-06T05:26:50Z |
+| api-ms-win-core-debug-l1-1-0.dll | 18112 | AMD64 | WINDOWS_CUI | no | api-ms-win-core-debug-l1-1-0.pdb | 2017-01-06T05:26:50Z |
+| api-ms-win-core-errorhandling-l1-1-0.dll | 18624 | AMD64 | WINDOWS_CUI | no | api-ms-win-core-errorhandling-l1-1-0.pdb | 2017-01-06T05:26:50Z |
+| api-ms-win-core-file-l1-1-0.dll | 22208 | AMD64 | WINDOWS_CUI | no | api-ms-win-core-file-l1-1-0.pdb | 2017-01-06T05:26:50Z |
+| api-ms-win-core-file-l1-2-0.dll | 18624 | AMD64 | WINDOWS_CUI | no | api-ms-win-core-file-l1-2-0.pdb | 2017-01-06T05:26:50Z |
+| api-ms-win-core-file-l2-1-0.dll | 18624 | AMD64 | WINDOWS_CUI | no | api-ms-win-core-file-l2-1-0.pdb | 2017-01-06T05:53:29Z |
+| api-ms-win-core-handle-l1-1-0.dll | 18624 | AMD64 | WINDOWS_CUI | no | api-ms-win-core-handle-l1-1-0.pdb | 2017-01-06T05:26:50Z |
+| api-ms-win-core-heap-l1-1-0.dll | 18624 | AMD64 | WINDOWS_CUI | no | api-ms-win-core-heap-l1-1-0.pdb | 2017-01-06T05:26:50Z |
+| api-ms-win-core-interlocked-l1-1-0.dll | 18624 | AMD64 | WINDOWS_CUI | no | api-ms-win-core-interlocked-l1-1-0.pdb | 2017-01-06T05:26:50Z |
+| api-ms-win-core-libraryloader-l1-1-0.dll | 19136 | AMD64 | WINDOWS_CUI | no | api-ms-win-core-libraryloader-l1-1-0.pdb | 2017-01-06T05:26:50Z |
+| api-ms-win-core-localization-l1-2-0.dll | 21184 | AMD64 | WINDOWS_CUI | no | api-ms-win-core-localization-l1-2-0.pdb | 2017-01-06T05:26:50Z |
+| api-ms-win-core-memory-l1-1-0.dll | 19136 | AMD64 | WINDOWS_CUI | no | api-ms-win-core-memory-l1-1-0.pdb | 2017-01-06T05:26:50Z |
+| api-ms-win-core-namedpipe-l1-1-0.dll | 18624 | AMD64 | WINDOWS_CUI | no | api-ms-win-core-namedpipe-l1-1-0.pdb | 2017-01-06T05:26:50Z |
+| api-ms-win-core-processenvironment-l1-1-0.dll | 19648 | AMD64 | WINDOWS_CUI | no | api-ms-win-core-processenvironment-l1-1-0.pdb | 2017-01-06T05:26:50Z |
+| api-ms-win-core-processthreads-l1-1-0.dll | 20672 | AMD64 | WINDOWS_CUI | no | api-ms-win-core-processthreads-l1-1-0.pdb | 2017-01-06T05:26:50Z |
+| api-ms-win-core-processthreads-l1-1-1.dll | 19136 | AMD64 | WINDOWS_CUI | no | api-ms-win-core-processthreads-l1-1-1.pdb | 2017-01-06T05:26:50Z |
+| api-ms-win-core-profile-l1-1-0.dll | 18120 | AMD64 | WINDOWS_CUI | no | api-ms-win-core-profile-l1-1-0.pdb | 2017-01-06T05:26:50Z |
+| api-ms-win-core-rtlsupport-l1-1-0.dll | 18624 | AMD64 | WINDOWS_CUI | no | api-ms-win-core-rtlsupport-l1-1-0.pdb | 2017-01-06T05:26:50Z |
+| api-ms-win-core-string-l1-1-0.dll | 18624 | AMD64 | WINDOWS_CUI | no | api-ms-win-core-string-l1-1-0.pdb | 2017-01-06T05:26:50Z |
+| api-ms-win-core-synch-l1-1-0.dll | 20672 | AMD64 | WINDOWS_CUI | no | api-ms-win-core-synch-l1-1-0.pdb | 2017-01-06T05:26:50Z |
+| api-ms-win-core-synch-l1-2-0.dll | 19136 | AMD64 | WINDOWS_CUI | no | api-ms-win-core-synch-l1-2-0.pdb | 2017-01-06T05:26:50Z |
+| api-ms-win-core-sysinfo-l1-1-0.dll | 19656 | AMD64 | WINDOWS_CUI | no | api-ms-win-core-sysinfo-l1-1-0.pdb | 2017-01-06T05:26:50Z |
+| api-ms-win-core-timezone-l1-1-0.dll | 18624 | AMD64 | WINDOWS_CUI | no | api-ms-win-core-timezone-l1-1-0.pdb | 2017-01-06T05:26:50Z |
+| api-ms-win-core-util-l1-1-0.dll | 18624 | AMD64 | WINDOWS_CUI | no | api-ms-win-core-util-l1-1-0.pdb | 2017-01-06T05:26:50Z |
+| api-ms-win-crt-conio-l1-1-0.dll | 19648 | AMD64 | WINDOWS_CUI | no | api-ms-win-crt-conio-l1-1-0.pdb | 2017-01-06T05:54:01Z |
+| api-ms-win-crt-convert-l1-1-0.dll | 22720 | AMD64 | WINDOWS_CUI | no | api-ms-win-crt-convert-l1-1-0.pdb | 2017-01-06T05:54:37Z |
+| api-ms-win-crt-environment-l1-1-0.dll | 19136 | AMD64 | WINDOWS_CUI | no | api-ms-win-crt-environment-l1-1-0.pdb | 2017-01-06T05:54:03Z |
+| api-ms-win-crt-filesystem-l1-1-0.dll | 20672 | AMD64 | WINDOWS_CUI | no | api-ms-win-crt-filesystem-l1-1-0.pdb | 2017-01-06T05:52:30Z |
+| api-ms-win-crt-heap-l1-1-0.dll | 19136 | AMD64 | WINDOWS_CUI | no | api-ms-win-crt-heap-l1-1-0.pdb | 2017-01-06T05:54:18Z |
+| api-ms-win-crt-locale-l1-1-0.dll | 19136 | AMD64 | WINDOWS_CUI | no | api-ms-win-crt-locale-l1-1-0.pdb | 2017-01-06T05:53:00Z |
+| api-ms-win-crt-math-l1-1-0.dll | 27840 | AMD64 | WINDOWS_CUI | no | api-ms-win-crt-math-l1-1-0.pdb | 2017-01-06T05:52:46Z |
+| api-ms-win-crt-multibyte-l1-1-0.dll | 26304 | AMD64 | WINDOWS_CUI | no | api-ms-win-crt-multibyte-l1-1-0.pdb | 2017-01-06T05:53:27Z |
+| api-ms-win-crt-private-l1-1-0.dll | 70848 | AMD64 | WINDOWS_CUI | no | api-ms-win-crt-private-l1-1-0.pdb | 2017-01-06T05:26:50Z |
+| api-ms-win-crt-process-l1-1-0.dll | 19648 | AMD64 | WINDOWS_CUI | no | api-ms-win-crt-process-l1-1-0.pdb | 2017-01-06T05:54:10Z |
+| api-ms-win-crt-runtime-l1-1-0.dll | 23232 | AMD64 | WINDOWS_CUI | no | api-ms-win-crt-runtime-l1-1-0.pdb | 2017-01-06T05:52:22Z |
+| api-ms-win-crt-stdio-l1-1-0.dll | 24768 | AMD64 | WINDOWS_CUI | no | api-ms-win-crt-stdio-l1-1-0.pdb | 2017-01-06T05:26:50Z |
+| api-ms-win-crt-string-l1-1-0.dll | 24768 | AMD64 | WINDOWS_CUI | no | api-ms-win-crt-string-l1-1-0.pdb | 2017-01-06T05:54:44Z |
+| api-ms-win-crt-time-l1-1-0.dll | 21184 | AMD64 | WINDOWS_CUI | no | api-ms-win-crt-time-l1-1-0.pdb | 2017-01-06T05:54:41Z |
+| api-ms-win-crt-utility-l1-1-0.dll | 19136 | AMD64 | WINDOWS_CUI | no | api-ms-win-crt-utility-l1-1-0.pdb | 2017-01-06T05:54:06Z |
+| archive.dll | 688128 | AMD64 | WINDOWS_CUI | no |  | 2024-12-04T03:11:51Z |
+| cloud_session.dll | 943336 | AMD64 | WINDOWS_GUI | no | E:\DRW\_drw_main\DRWIntelligentScan\bin\Release\x64\cloud_session.pdb | 2026-10-13T05:28:40Z |
+| concrt140.dll | 332336 | AMD64 | WINDOWS_CUI | no | d:\agent\_work\2\s\binaries\amd64ret\bin\amd64\\concrt140.amd64.pdb | 2018-10-12T23:13:24Z |
+| cpprest141_2_10.dll | 3756032 | AMD64 | WINDOWS_CUI | no |  | 2019-04-03T05:45:33Z |
+| dbghelp.dll | 1558912 | AMD64 | WINDOWS_CUI | no | dbghelp.pdb | 2010-02-01T20:15:44Z |
+| de265.dll | 444928 | AMD64 | WINDOWS_GUI | no | C:\heic\vcpkg\buildtrees\libde265\x64-windows-rel\libde265\de265.pdb | 2023-06-16T07:48:41Z |
+| exFATSearchDLL.dll | 413416 | AMD64 | WINDOWS_GUI | no | E:\DRW\_drw_main\DRWIntelligentScan\bin\Release\x64\exFATSearchDLL.pdb | 2026-10-13T05:30:19Z |
+| firebasefetch.exe | 90344 | AMD64 | WINDOWS_CUI | no | F:\share_lib\99_PublicLibrary\_HistoryVersion\FireBaseOnlineConfig\1.1\x64\Release\firebasefetch.pdb | 2024-05-29T07:18:25Z |
+| firebaseonlineconfig.dll | 1155816 | AMD64 | WINDOWS_GUI | no | F:\share_lib\99_PublicLibrary\_HistoryVersion\FireBaseOnlineConfig\1.1\x64\Release\firebaseonlineconfig.pdb | 2024-05-29T07:18:27Z |
+| heif.dll | 585728 | AMD64 | WINDOWS_GUI | no | C:\heic\vcpkg\buildtrees\libheif\x64-windows-rel\libheif\heif.pdb | 2023-06-16T08:06:11Z |
+| legacy.dll | 101888 | AMD64 | WINDOWS_GUI | no | F:\git\vcpkg\buildtrees\openssl\x64-windows-rel\providers\legacy.pdb | 2024-12-23T08:19:56Z |
+| libcrypto-1_1-x64.dll | 2892800 | AMD64 | WINDOWS_GUI | no | D:\CFILES\Projects\WinSSL\openssl-1.1.0h\libcrypto-1_1-x64.pdb | 2018-03-27T15:15:07Z |
+| libcrypto-1_1.dll | 2094592 | i386 | WINDOWS_GUI | no | D:\CFILES\Projects\WinSSL\openssl-1.1.0h\libcrypto-1_1.pdb | 2018-03-27T14:51:18Z |
+| libcrypto-3-x64.dll | 4682240 | AMD64 | WINDOWS_GUI | no | F:\git\vcpkg\buildtrees\openssl\x64-windows-rel\libcrypto-3-x64.pdb | 2024-12-23T08:19:53Z |
+| libeay32.dll | 2093568 | AMD64 | WINDOWS_CUI | no | D:\CFILES\Projects\WinSSL\openssl-1.0.2o\out32dll\libeay32.pdb | 2018-03-27T15:15:19Z |
+| libeay32MD.dll | 1279488 | i386 | WINDOWS_CUI | no | D:\opensource\openssl-1.0.1u\out32dll\libeay32MD.pdb | 2016-09-23T16:03:52Z |
+| liblzma.dll | 186880 | AMD64 | WINDOWS_CUI | no |  | 2024-12-04T02:01:24Z |
+| libssh2.dll | 246784 | AMD64 | WINDOWS_GUI | no | F:\git\vcpkg\buildtrees\libssh2\x64-windows-rel\src\libssh2.pdb | 2024-12-23T08:20:19Z |
+| libssl-1_1-x64.dll | 482816 | AMD64 | WINDOWS_GUI | no | D:\CFILES\Projects\WinSSL\openssl-1.1.0h\libssl-1_1-x64.pdb | 2018-03-27T15:15:17Z |
+| libssl-1_1.dll | 375808 | i386 | WINDOWS_GUI | no | D:\CFILES\Projects\WinSSL\openssl-1.1.0h\libssl-1_1.pdb | 2018-03-27T14:51:28Z |
+| libssl-3-x64.dll | 782848 | AMD64 | WINDOWS_GUI | no | F:\git\vcpkg\buildtrees\openssl\x64-windows-rel\libssl-3-x64.pdb | 2024-12-23T08:19:54Z |
+| libssl32.dll | 353792 | AMD64 | WINDOWS_CUI | no | D:\CFILES\Projects\WinSSL\openssl-1.0.2o\out32dll\ssleay32.pdb | 2018-03-27T15:15:29Z |
+| libx265.dll | 5145600 | AMD64 | WINDOWS_GUI | no | C:\heic\vcpkg\buildtrees\x265\x64-windows-rel\libx265.pdb | 2023-06-16T08:03:55Z |
+| libzmq-mt-4_3_5.dll | 454656 | AMD64 | WINDOWS_GUI | no | D:\vcpkg-master\buildtrees\zeromq\x64-windows-rel\bin\libzmq-mt-4_3_5.pdb | 2024-11-20T07:25:49Z |
+| msvcm90.dll | 224768 | i386 | WINDOWS_GUI | YES | msvcm90.i386.pdb | 2007-11-07T04:23:55Z |
+| msvcp120.dll | 659616 | AMD64 | WINDOWS_GUI | no | msvcp120.amd64.pdb | 2016-07-07T08:03:32Z |
+| msvcp140.dll | 627440 | AMD64 | WINDOWS_CUI | no | d:\agent\_work\2\s\binaries\amd64ret\bin\amd64\\msvcp140.amd64.pdb | 2018-10-12T23:13:29Z |
+| msvcp90.dll | 856576 | AMD64 | WINDOWS_GUI | no | msvcp90.amd64.pdb | 2008-07-29T10:51:21Z |
+| msvcr120.dll | 963240 | AMD64 | WINDOWS_GUI | no | msvcr120.amd64.pdb | 2016-07-07T08:03:19Z |
+| msvcr90.dll | 626688 | AMD64 | WINDOWS_GUI | no | msvcr90.amd64.pdb | 2008-07-29T10:51:16Z |
+| pdfium.dll | 4119552 | AMD64 | WINDOWS_CUI | no | D:\pdfium\pdfium\output\pdfium.dll.pdb | 2017-05-02T05:24:37Z |
+| send_dmp_with_aliyun.exe | 107456 | AMD64 | WINDOWS_CUI | no | d:\svn\Tools\SendDmpWithAliyun\x64\Release\send_dmp_with_aliyun.pdb | 2025-03-27T05:28:52Z |
+| ssleay32.dll | 353792 | AMD64 | WINDOWS_CUI | no | D:\CFILES\Projects\WinSSL\openssl-1.0.2o\out32dll\ssleay32.pdb | 2018-03-27T15:15:29Z |
+| ssleay32MD.dll | 254976 | i386 | WINDOWS_CUI | no | D:\opensource\openssl-1.0.1u\out32dll\ssleay32MD.pdb | 2016-09-23T16:04:01Z |
+| ucrtbase.dll | 997056 | AMD64 | WINDOWS_CUI | no | ucrtbase.pdb | 2017-01-06T05:27:48Z |
+| unins000.exe | 1259408 | i386 | WINDOWS_GUI | no |  | 2016-04-06T14:39:05Z |
+| vcruntime140.dll | 85232 | AMD64 | WINDOWS_CUI | no | d:\agent\_work\2\s\binaries\amd64ret\bin\amd64\\vcruntime140.amd64.pdb | 2018-10-12T23:13:25Z |
+| zlib.dll | 83968 | AMD64 | WINDOWS_CUI | no |  | 2024-11-15T07:12:32Z |
+| zlib1.dll | 90624 | AMD64 | WINDOWS_GUI | no | F:\git\vcpkg\buildtrees\zlib\x64-windows-rel\zlib.pdb | 2024-12-23T08:20:11Z |
