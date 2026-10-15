@@ -193,3 +193,93 @@ The Phase 1 research is largely complete. Phase 2 implementation is in progress.
 - NAS recovery (SSH-based, port `EuShare/EuMrx.sys` concept).
 - WinPE bootable media (port `PE_Tools.dll` + `dlconfig.xml` concept).
 - File repair tools (port `EUVideoRepair.dll`, `EUImageEnhance.dll`, etc.).
+
+---
+## 2026-10-15 14:30 UTC — Agent: Main (session 2) — Task: 6 — Policy clarification + Decompilation Expansion
+
+**Actions:**
+- Read worklog + key docs to load context.
+- Updated `docs/legal/CLEAN_ROOM.md` to clarify: studying paywalled features IS allowed; bypassing the licence mechanism itself is not.
+- Created `docs/reverse-engineering/paywalled_features.md` — 11-entry catalogue (P1-P11) of paywalled features with gating mechanism + functional description + our Rust impl plan.
+- Freed disk space (was full): removed redundant archives (jdk21.tar.gz, ghidra.zip, die.deb), removed downloads/, removed analysis/08_decompiled copies (already in repo). 1.6 GB free.
+- Decompiled 3 more EaseUS binaries with Ghidra 11.3.2 headless:
+  - FATSearchDLL.dll — 1265 functions decompiled.
+  - exFATSearchDLL.dll — 1299 functions decompiled.
+  - DRWService.exe — 118 functions decompiled (BitLocker FVE service).
+- Confirmed FAT type detection uses standard Microsoft cluster-count thresholds (FAT12 < 4085, FAT16 < 65525, FAT32 else) via FUN_180007e50.
+- Confirmed DRWService registers as Windows service 'Read FVE Server' with named pipe `\\.\Pipe\DRWBitlocker` for IPC with DRWUI.exe.
+
+**Stage Summary:**
+- Total decompiled functions in repo: 4024 + 1265 + 1299 + 118 = **6706 functions** across 5 binaries.
+- Clean-room policy clarified: study paywalled features freely, never touch the licence mechanism itself.
+
+---
+## 2026-10-15 14:55 UTC — Agent: Main (session 2) — Task: 7 — FAT + exFAT Parsers + Signatures + Carving
+
+**Actions:**
+- Implemented `rdw-fs-fat` (FAT12/16/32 parser) — 18 unit tests:
+  - `bpb.rs`: BPB parsing with FAT type auto-detection (5 tests).
+  - `fat_table.rs`: FAT12/16/32 table readers with chain following + loop detection (5 tests).
+  - `dir_entry.rs`: SFN + LFN directory entry parsing, LFN checksum, FAT-to-Unix timestamp conversion (8 tests).
+  - `searcher.rs`: FatSearcher implementing QuickSearcher + CompleteSearcher.
+- Implemented `rdw-fs-exfat` (exFAT parser) — 17 unit tests:
+  - `boot.rs`: exFAT boot sector parsing (8 tests).
+  - `dir_entry.rs`: 3-entry file set parsing (File + Stream + Name) (6 tests).
+  - `fat.rs`: exFAT FAT table reader (32-bit entries, only for fragmented files).
+  - `bitmap.rs`: Allocation bitmap (1 bit per cluster).
+  - `upcase.rs`: Unicode upcase table (ASCII default + optional on-disk).
+  - `searcher.rs`: ExFatSearcher with contiguous + fragmented chain support.
+- Implemented `rdw-signatures` (file signature database) — 17 unit tests:
+  - `common.rs`: 30+ hardcoded common file signatures (JPG/PNG/PDF/ZIP/etc.).
+  - `extended.rs`: 139 extended signatures from `raw_signs.json` (embedded as compile-time include_str!).
+  - `registry.rs`: SignatureRegistry with first-byte index + match_buf() returning ranked matches.
+- Implemented `rdw-carving` (RAW file carving engine) — 16 unit tests:
+  - `analyser.rs`: FileAnalyser trait (matches_magic, validate_header, validate_tail, determine_size, extract_metadata).
+  - `registry.rs`: AnalyserRegistry with multimap from first byte → list of analysers. SharedAnalyserRegistry for thread-safety.
+  - `validators.rs`: 5 built-in analysers (JpgAnalyser, PngAnalyser, PdfAnalyser, ZipAnalyser, GzipAnalyser) with format-specific validation.
+  - `carver.rs`: Carver walks device block-by-block, emits CarvedFile records.
+- Fixed CI: cargo clippy now uses --all-targets (catches test code issues that were failing CI).
+- Created separate validation repo `heictojpgpics/rust-data-recovery-validation`:
+  - `.github/workflows/validate-windows.yml`: triggers on push from main RDW repo. Builds RDW on windows-latest, runs unit tests, generates NTFS + FAT32 fixture VHDs via diskpart, uploads them as artifacts.
+  - `.github/workflows/trigger-validation.yml` (also copied to main repo): triggers validation on every push to main.
+
+**Stage Summary:**
+- Total tests: **90 passing** (22 NTFS + 18 FAT + 17 exFAT + 17 signatures + 16 carving).
+- Clippy clean with --all-targets. Fmt clean.
+- All code compiles for both Linux (dev/test) and Windows (release).
+- Validation repo set up with Windows runner workflow for fixture-based testing.
+
+---
+## What's Next (for future agents / sessions)
+
+### Phase 2 (Core Engine) — remaining
+- [ ] `rdw-io` — Windows storage device enumeration (WMI / IOCTL_STORAGE_QUERY_PROPERTY).
+- [ ] `rdw-engine` — high-level orchestrator that ties everything together (dispatch to right FS parser, run carving on free clusters).
+- [ ] `rdw-ipc` — IPC types shared between Rust core and Tauri UI.
+- [ ] Add more analysers to `rdw-carving` (currently only 5; EaseUS ships 60+).
+- [ ] Add more common signatures to `rdw-signatures` (currently 30+; EaseUS ships ~60).
+- [ ] Implement USN journal parsing in `rdw-fs-ntfs` (for deleted file recovery).
+
+### Phase 3 (Tauri UI) — wire up real calls
+- [ ] Implement `list_storage_devices` in `src-tauri/src/commands.rs` using `rdw-io`.
+- [ ] Implement `start_scan` to dispatch to `rdw-engine` which picks the right FS parser.
+- [ ] Add scan progress UI (live progress bar + found-files counter via Tauri events).
+- [ ] Add results tree UI (sort by type, filter by name/size/date).
+- [ ] Add file preview UI (text, image, hex).
+- [ ] Add recover dialog (choose destination, copy files).
+
+### Phase 4 (CI + Validation) — basic done
+- [x] `.github/workflows/rust-ci.yml` — fmt + clippy + test + Windows build.
+- [x] `.github/workflows/release.yml` — tag-triggered Tauri release.
+- [x] `.github/workflows/trigger-validation.yml` — triggers validation repo.
+- [x] Validation repo with Windows runner workflow.
+- [ ] Generate fixture disk images via diskpart and test recovery end-to-end.
+- [ ] Add benchmark workflow (compare recovery rate against EaseUS on identical disk images).
+
+### Phase 5+ — Future
+- BitLocker decryption (`rdw-bitlocker` crate — port from `BitLockerLib.dll`).
+- Partition recovery (`rdw-partition` crate — port from `PartitionRecovery.dll`).
+- NAS recovery (`rdw-nas` crate — port from `EuShare/EuMrx.sys` concept).
+- iCloud recovery (`rdw-cloud-icloud` crate — port from `EuICloudRecovery.dll`).
+- WinPE bootable media (port from `PE_Tools.dll` + `dlconfig.xml`).
+- macOS port.
