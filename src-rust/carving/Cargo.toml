@@ -5,7 +5,7 @@ edition.workspace = true
 rust-version.workspace = true
 license.workspace = true
 repository.workspace = true
-description = "Carving crate for RDW"
+description = "RAW file carving engine for RDW"
 
 [dependencies]
 thiserror.workspace = true
@@ -15,6 +15,8 @@ serde_json.workspace = true
 bytes.workspace = true
 bytemuck.workspace = true
 zerocopy.workspace = true
+parking_lot.workspace = true
 rdw-core.workspace = true
+rdw-signatures = { path = "../signatures" }
 
 [dev-dependencies]
