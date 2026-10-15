@@ -55,6 +55,9 @@ jobs:
       - name: Cargo clippy
         run: cargo clippy --workspace --all-targets -- -D warnings
 
+      - name: Cargo test (lib + integration)
+        run: cargo test --workspace --all-targets --no-fail-fast
+
   test:
     name: test (linux)
     runs-on: ubuntu-24.04

@@ -405,7 +405,7 @@ mod tests {
         data[0x1FE..0x200].copy_from_slice(&0xAA55u16.to_le_bytes());
         // FAT at sector 1 (after 1 reserved).
         // Write FAT16 entries: cluster 2 -> 3, cluster 3 -> EOC.
-        data[bs + 0..bs + 2].copy_from_slice(&0xFFF8u16.to_le_bytes()); // cluster 0 (reserved marker)
+        data[bs..bs + 2].copy_from_slice(&0xFFF8u16.to_le_bytes()); // cluster 0 (reserved marker)
         data[bs + 2..bs + 4].copy_from_slice(&0xFFF8u16.to_le_bytes()); // cluster 1 (reserved marker)
         data[bs + 4..bs + 6].copy_from_slice(&3u16.to_le_bytes()); // cluster 2 -> 3
         data[bs + 6..bs + 8].copy_from_slice(&0xFFF8u16.to_le_bytes()); // cluster 3 -> EOC
@@ -414,8 +414,7 @@ mod tests {
             data,
             block_size: 512,
         };
-        let bpb = FatBpb::parse(&device.read_blocks_vec(0, 512).unwrap_or_default()).unwrap();
-        // Actually FakeDevice doesn't have read_blocks_vec — let me read manually.
+        // FakeDevice doesn't have read_blocks_vec — read manually.
         let mut boot = vec![0u8; 512];
         device.read_blocks(0, &mut boot).unwrap();
         let bpb = FatBpb::parse(&boot).unwrap();
@@ -427,17 +426,5 @@ mod tests {
         assert_eq!(table.get_entry(3).unwrap(), FatEntry::EndOfChain);
         let chain = table.follow_chain(2, 100).unwrap();
         assert_eq!(chain, vec![2, 3]);
-    }
-
-    // Helper trait for tests
-    trait StorageDeviceTestExt {
-        fn read_blocks_vec(&self, start_lba: u64, len: usize) -> rdw_core::CoreResult<Vec<u8>>;
-    }
-    impl<T: StorageDevice + ?Sized> StorageDeviceTestExt for T {
-        fn read_blocks_vec(&self, start_lba: u64, len: usize) -> rdw_core::CoreResult<Vec<u8>> {
-            let mut buf = vec![0u8; len];
-            self.read_blocks(start_lba, &mut buf)?;
-            Ok(buf)
-        }
     }
 }

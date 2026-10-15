@@ -351,8 +351,8 @@ mod tests {
         assert!(a.read_only);
         let a = DirEntryAttr::from_u8(0x10);
         assert!(a.directory);
-        let a = DirEntryAttr::from_u8(0x0F);
         assert!(DirEntryAttr::is_lfn(0x0F));
+        let _ = a;
     }
 
     #[test]
