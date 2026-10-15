@@ -1,11 +1,11 @@
 [package]
-name = "rdw-fs_exfat"
+name = "rdw-fs-exfat"
 version.workspace = true
 edition.workspace = true
 rust-version.workspace = true
 license.workspace = true
 repository.workspace = true
-description = "Fs-exfat crate for RDW"
+description = "exFAT filesystem parser for RDW"
 
 [dependencies]
 thiserror.workspace = true
@@ -15,6 +15,7 @@ serde_json.workspace = true
 bytes.workspace = true
 bytemuck.workspace = true
 zerocopy.workspace = true
+parking_lot.workspace = true
 rdw-core.workspace = true
 
 [dev-dependencies]
