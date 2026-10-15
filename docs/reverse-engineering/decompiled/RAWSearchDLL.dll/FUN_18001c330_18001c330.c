@@ -1,0 +1,16 @@
+// Function: FUN_18001c330
+// Address: 18001c330
+// Size: 67 bytes
+
+
+undefined8 * FUN_18001c330(undefined8 *param_1,ulonglong param_2)
+
+{
+  *param_1 = RawFormat_xjq::JP2Analyser::vftable;
+  *param_1 = IRawFileAnalyser::vftable;
+  if ((param_2 & 1) != 0) {
+    free(param_1);
+  }
+  return param_1;
+}
+

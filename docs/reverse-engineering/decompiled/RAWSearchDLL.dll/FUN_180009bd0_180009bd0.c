@@ -1,0 +1,36 @@
+// Function: FUN_180009bd0
+// Address: 180009bd0
+// Size: 127 bytes
+
+
+basic_streambuf<char,struct_std::char_traits<char>_> *
+FUN_180009bd0(basic_streambuf<char,struct_std::char_traits<char>_> *param_1)
+
+{
+  char cVar1;
+  int iVar2;
+  basic_streambuf<char,struct_std::char_traits<char>_> *pbVar3;
+  
+  if (*(longlong *)(param_1 + 0x80) == 0) {
+    pbVar3 = (basic_streambuf<char,struct_std::char_traits<char>_> *)0x0;
+  }
+  else {
+    cVar1 = FUN_180009b00(param_1);
+    pbVar3 = param_1;
+    if (cVar1 == '\0') {
+      pbVar3 = (basic_streambuf<char,struct_std::char_traits<char>_> *)0x0;
+    }
+    iVar2 = fclose(*(FILE **)(param_1 + 0x80));
+    if (iVar2 != 0) {
+      pbVar3 = (basic_streambuf<char,struct_std::char_traits<char>_> *)0x0;
+    }
+  }
+  param_1[0x7c] = (basic_streambuf<char,struct_std::char_traits<char>_>)0x0;
+  param_1[0x71] = (basic_streambuf<char,struct_std::char_traits<char>_>)0x0;
+  std::basic_streambuf<char,struct_std::char_traits<char>_>::_Init(param_1);
+  *(undefined8 *)(param_1 + 0x74) = DAT_180096a78;
+  *(undefined8 *)(param_1 + 0x80) = 0;
+  *(undefined8 *)(param_1 + 0x68) = 0;
+  return pbVar3;
+}
+

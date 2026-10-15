@@ -1,0 +1,18 @@
+// Function: FUN_180001340
+// Address: 180001340
+// Size: 44 bytes
+
+
+void FUN_180001340(longlong *param_1)
+
+{
+  longlong *plVar1;
+  
+  plVar1 = (longlong *)param_1[7];
+  if (plVar1 != (longlong *)0x0) {
+    (**(code **)(*plVar1 + 0x20))(plVar1,plVar1 != param_1);
+    param_1[7] = 0;
+  }
+  return;
+}
+

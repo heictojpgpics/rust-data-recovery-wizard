@@ -1,0 +1,45 @@
+// Function: FUN_180044770
+// Address: 180044770
+// Size: 307 bytes
+
+
+longlong FUN_180044770(longlong *param_1)
+
+{
+  undefined1 uVar1;
+  byte bVar2;
+  byte bVar3;
+  int iVar4;
+  int iVar5;
+  longlong lVar6;
+  longlong lVar7;
+  undefined7 extraout_var;
+  undefined7 extraout_var_00;
+  longlong local_28;
+  
+  local_28 = 0;
+  lVar6 = FUN_180041b70(param_1,0x30,0);
+  lVar7 = FUN_180041b70(param_1,0x30,1);
+  if ((lVar6 != 0) && (local_28 = lVar6, lVar7 != 0)) {
+    uVar1 = FUN_180043330(lVar6);
+    iVar4 = (int)CONCAT71(extraout_var,uVar1);
+    uVar1 = FUN_180043330(lVar7);
+    iVar5 = (int)CONCAT71(extraout_var_00,uVar1);
+    local_28 = lVar7;
+    if (iVar5 != 1) {
+      if ((iVar4 == 0) && (iVar5 == 0)) {
+        bVar2 = FUN_180043830(lVar6);
+        bVar3 = FUN_180043830(lVar7);
+        if (bVar3 <= bVar2) {
+          local_28 = lVar6;
+        }
+      }
+      else if (((iVar4 != 0) || (local_28 = lVar6, iVar5 != 2)) &&
+              ((local_28 = lVar6, iVar4 == 2 && (iVar5 == 0)))) {
+        local_28 = lVar7;
+      }
+    }
+  }
+  return local_28;
+}
+

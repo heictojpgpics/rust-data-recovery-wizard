@@ -1,0 +1,12 @@
+// Function: Unwind@180060120
+// Address: 180060120
+// Size: 12 bytes
+
+
+void Unwind_180060120(undefined8 param_1,longlong param_2)
+
+{
+  FUN_180001630((longlong *)(param_2 + 0x290));
+  return;
+}
+

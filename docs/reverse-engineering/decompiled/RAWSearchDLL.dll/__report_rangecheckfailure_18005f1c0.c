@@ -1,0 +1,17 @@
+// Function: __report_rangecheckfailure
+// Address: 18005f1c0
+// Size: 19 bytes
+
+
+/* Library Function - Single Match
+    __report_rangecheckfailure
+   
+   Libraries: Visual Studio 2012, Visual Studio 2015, Visual Studio 2017, Visual Studio 2019 */
+
+void __report_rangecheckfailure(void)
+
+{
+  __report_securityfailure(8);
+  return;
+}
+

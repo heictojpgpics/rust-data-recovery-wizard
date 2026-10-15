@@ -1,0 +1,36 @@
+// Function: FUN_180001d70
+// Address: 180001d70
+// Size: 89 bytes
+
+
+void FUN_180001d70(longlong *param_1,longlong *param_2)
+
+{
+  longlong lVar1;
+  longlong *plVar2;
+  
+  lVar1 = *param_2;
+  *param_2 = *(longlong *)(lVar1 + 0x10);
+  if (*(char *)(*(longlong *)(lVar1 + 0x10) + 0x19) == '\0') {
+    *(longlong **)(*(longlong *)(lVar1 + 0x10) + 8) = param_2;
+  }
+  *(longlong *)(lVar1 + 8) = param_2[1];
+  if (param_2 == *(longlong **)(*param_1 + 8)) {
+    *(longlong *)(*param_1 + 8) = lVar1;
+    *(longlong **)(lVar1 + 0x10) = param_2;
+    param_2[1] = lVar1;
+    return;
+  }
+  plVar2 = (longlong *)param_2[1];
+  if (param_2 == (longlong *)plVar2[2]) {
+    plVar2[2] = lVar1;
+    *(longlong **)(lVar1 + 0x10) = param_2;
+    param_2[1] = lVar1;
+    return;
+  }
+  *plVar2 = lVar1;
+  *(longlong **)(lVar1 + 0x10) = param_2;
+  param_2[1] = lVar1;
+  return;
+}
+
