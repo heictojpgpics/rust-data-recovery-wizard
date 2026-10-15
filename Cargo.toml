@@ -16,6 +16,7 @@ members = [
     "src-rust/engine",
     "src-rust/ipc",
 ]
+exclude = ["src-tauri"]
 
 [workspace.package]
 version = "0.1.0"
@@ -27,43 +28,24 @@ authors = ["RDW Project"]
 description = "State-of-the-art data recovery wizard — Rust core"
 
 [workspace.dependencies]
-# Error handling
 thiserror = "1.0"
 anyhow = "1.0"
-
-# Logging / tracing
 tracing = "0.1"
 tracing-subscriber = { version = "0.3", features = ["env-filter", "fmt"] }
-
-# Serialization
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
-
-# Async
 tokio = { version = "1", features = ["full"] }
-
-# Concurrency primitives
 parking_lot = "0.12"
 dashmap = "6.0"
-
-# Cache
 moka = { version = "0.12", features = ["future"] }
-
-# Byte parsing
 bytes = "1.7"
 bytemuck = { version = "1.18", features = ["derive"] }
 zerocopy = { version = "0.8", features = ["derive"] }
-
-# Time
 time = { version = "0.3", features = ["serde", "formatting", "parsing"] }
-
-# UUIDs (for ReFS object IDs)
 uuid = { version = "1.10", features = ["v4", "serde"] }
-
-# Hashing (for content fingerprinting)
 xxhash-rust = { version = "0.8", features = ["xxh3", "xxh64"] }
+chrono = { version = "0.4", features = ["serde"] }
 
-# Internal crates (path-relative)
 rdw-core = { path = "src-rust/core" }
 rdw-fs-ntfs = { path = "src-rust/fs-ntfs" }
 rdw-fs-fat = { path = "src-rust/fs-fat" }
