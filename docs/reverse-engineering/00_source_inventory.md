@@ -393,3 +393,39 @@ Since our version is open-source and not paywalled, every capability above ships
 ## 16. Next Analysis Passes
 
 See [`02_pe_inventory.md`](./02_pe_inventory.md) for the full per-binary PE header dump (123 binaries), and [`04_strings_exports.md`](./04_strings_exports.md) for the strings + exports analysis.
+
+## 17. Firebase Remote Config Feature Flags (from `remote_config_data`)
+
+These flags are fetched at runtime from Firebase. Each can be split by market (`__abroad`, `__easeus`, `__free`) for A/B testing.
+
+| Flag | Purpose |
+|------|---------|
+| `enable_activate` / `enable_activate__free` | Activation flow toggle |
+| `enable_app` | App feature (always true) |
+| `enable_backuphome` | Backup home tab |
+| `enable_chat__abroad` / `enable_chat__abroad__easeus` | Chat support (international) |
+| `enable_chronosnap` | ChronoSnap — snapshot-based recovery |
+| `enable_continue` | Continue last scan |
+| `enable_docrepair` | Document repair |
+| `enable_ens` / `enable_ens__abroad__easeus` | ENS (likely Emergency Notification Service or Extended NAS Service) |
+| `enable_exit` | Exit survey trigger |
+| `enable_fast` | Fast scan mode |
+| `enable_feedbacksd__abroad` | Feedback SD card |
+| `enable_imgrepair` | Image repair |
+| `enable_onlinerepair` / `enable_onlinerepair__easeus` | Online repair |
+| `enable_paidrepair` | Paid repair feature |
+| `enable_pdfrepairhome` | PDF repair home tab |
+| `enable_popuprb__abroad` / `enable_popuprb__abroad__free__easeus` | Recycle Bin popup |
+| `enable_previewpane` | Preview pane UI |
+| `enable_refer__abroad__easeus` | Refer-a-friend |
+| `enable_service` / `enable_service__abroad__easeus` | Service mode |
+| `enable_survey` / `show_survey` | Survey prompt |
+| `enable_toolhome` | Tools home tab |
+| `enable_unlimited` | Unlimited recovery (paywall feature) |
+| `enable_unlock` | Unlock feature (paywall) |
+| `enable_videorepair` / `enable_videorepairhome` | Video repair |
+| `enable_win11checker` / `enable_win11checker__easeus` | Windows 11 compatibility checker |
+
+Filter / data keys: `filter_generalraw` (RAW scan filter), `json_gift` (offer JSON), `json_pe` (WinPE tools JSON), `json_raw` (RAW scan config JSON).
+
+These are **feature toggles**, not licence checks. Our open-source version simply hard-codes all features to `true`.

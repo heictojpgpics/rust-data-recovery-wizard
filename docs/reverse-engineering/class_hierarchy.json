@@ -1,0 +1,2348 @@
+{
+  "DRW.exe": {
+    "classes": [
+      "EsLog",
+      "FileMappingLog",
+      "ype_info"
+    ],
+    "templates": [],
+    "keywords": {
+      "scan": [
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\DRWLoader\\x64\\Release\\DRWLoader.pdb"
+      ],
+      "recover": [
+        "Data Recovery Wizard"
+      ],
+      "log": [
+        "DRWLOG_{1BFCF65F-0766-4a71-B7A3-2EB2CD1412DE}",
+        "Failed to request the permission to write to log file!",
+        "DRWLog.log",
+        "PubLog.dll",
+        ".?AVCFileMappingLog@@",
+        ".?AVIEsLog@@"
+      ],
+      "debug": [
+        "?DebugTrace@@YAXPEBDZZ",
+        "OutputDebugStringA",
+        "IsDebuggerPresent",
+        "OutputDebugStringW"
+      ],
+      "trace": [
+        "?DebugTrace@@YAXPEBDZZ"
+      ],
+      "Mutex": [
+        "ReleaseMutex",
+        "CreateMutexA"
+      ],
+      "Event": [
+        "____---CrashEvent = %X",
+        "____---MemoryCrashEvent = %X",
+        "CreateEventA",
+        "SetEvent",
+        "ResetEvent",
+        "CreateEventW"
+      ]
+    }
+  },
+  "DRWService.exe": {
+    "classes": [
+      "ype_info"
+    ],
+    "templates": [],
+    "keywords": {
+      "scan": [
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\BitlockerReadFVEService.pdb"
+      ],
+      "service": [
+        "Service already installed",
+        "CreateService failed",
+        "StartService failed",
+        "Install service succeed",
+        "Service not installed",
+        "OpenService failed",
+        "QueryServiceStatus failed",
+        "Stop Service failed",
+        "Uninstall service succeed",
+        "Uninstall service failed",
+        "Service stopping...",
+        "RegisterServiceCtrlHandler failed",
+        "RegisterServiceCtrlHandler succeed",
+        "Service starting...",
+        "Service stopped",
+        "Service running...",
+        "StartServiceCtrlDispatcher failed",
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\BitlockerReadFVEService.pdb",
+        "OpenServiceA",
+        "ChangeServiceConfig2A"
+      ],
+      "pipe": [
+        "\\\\.\\Pipe\\DRWBitlocker",
+        "SetNamedPipeHandleState",
+        "WaitNamedPipeA"
+      ],
+      "debug": [
+        "OutputDebugStringA",
+        "IsDebuggerPresent"
+      ],
+      "Pipe": [
+        "\\\\.\\Pipe\\DRWBitlocker",
+        "SetNamedPipeHandleState",
+        "WaitNamedPipeA"
+      ],
+      "Event": [
+        "SetEvent",
+        "CreateEventA"
+      ]
+    }
+  },
+  "DRWReport.exe": {
+    "classes": [
+      "AFX_BASE_MODULE_STATE",
+      "AFX_CHECKLIST_STATE",
+      "AFX_COLOR_STATE",
+      "AFX_D2D_STATE",
+      "AFX_EDIT_STATE",
+      "AFX_HTMLHELP_STATE",
+      "AFX_MOUSEANCHORWND",
+      "AFX_OLE_STATE",
+      "AFX_RICHEDIT_STATE",
+      "AFX_THREAD_STATE",
+      "AFX_WIN_STATE",
+      "AfxStringMgr",
+      "AnimateCtrl",
+      "App",
+      "ArchiveException",
+      "ArchiveStream",
+      "AutoHideDockSite",
+      "BasePane",
+      "BaseTabbedPane",
+      "Bitmap",
+      "Brush",
+      "Button",
+      "ByteArray",
+      "CellObj",
+      "CheckListBox",
+      "ChevronOwnerDrawMenu",
+      "ClientDC",
+      "CmdTarget",
+      "CmdUI",
+      "ColorDialog",
+      "ComboBox",
+      "ComboBoxEx",
+      "CommandLineInfo",
+      "CommandManager",
+      "CommonDialog",
+      "ContextMenuManager",
+      "ControlBar",
+      "ControlSiteFactory",
+      "ControlSiteFactoryMgr",
+      "CriticalSection",
+      "CtrlView",
+      "D2DBitmap",
+      "D2DBitmapBrush",
+      "D2DBrush",
+      "D2DGeometry",
+      "D2DGeometrySink",
+      "D2DGradientBrush",
+      "D2DLayer",
+      "D2DLinearGradientBrush",
+      "D2DMesh",
+      "D2DPathGeometry",
+      "D2DRadialGradientBrush",
+      "D2DResource",
+      "D2DSolidColorBrush",
+      "D2DTextFormat",
+      "D2DTextLayout",
+      "DC",
+      "DCRenderTarget",
+      "DNameNode",
+      "DWordArray",
+      "DataRecoveryHandler",
+      "DataSourceControl",
+      "Details",
+      "Dialog",
+      "DialogBar",
+      "DialogEx",
+      "DialogImpl",
+      "Dlg",
+      "DocItem",
+      "DocManager",
+      "DocObjectServer",
+      "DocObjectServerItem",
+      "DocTemplate",
+      "DockBar",
+      "DockContext",
+      "DockSite",
+      "DockState",
+      "DockablePane",
+      "DockablePaneAdapter",
+      "DockingManager",
+      "DockingPanesRow",
+      "Document",
+      "DragListBox",
+      "DrawingManager",
+      "DummyDockablePane",
+      "Edit",
+      "EditView",
+      "EnumArray",
+      "EnumFormatEtc",
+      "EnumUnknown",
+      "Exception",
+      "FX_MODULE_STATE",
+      "FX_MODULE_THREAD_STATE",
+      "File",
+      "FileDialog",
+      "FileException",
+      "FindReplaceDialog",
+      "FolderPickerDialog",
+      "Font",
+      "FontDialog",
+      "FormView",
+      "FrameImpl",
+      "FrameWnd",
+      "FrameWndEx",
+      "FullScreenImpl",
+      "FullScreenToolbar",
+      "GdiObject",
+      "GestureConfig",
+      "GlobalUtils",
+      "HandleMap",
+      "HeaderCtrl",
+      "HelpComboBoxButton",
+      "HotKeyCtrl",
+      "HwndRenderTarget",
+      "IPAddressCtrl",
+      "ImageList",
+      "InnerUnknown",
+      "InvalidArgException",
+      "KeyboardManager",
+      "ListBox",
+      "ListCtrl",
+      "MDIChildWnd",
+      "MDIChildWndEx",
+      "MDIClientAreaWnd",
+      "MDIFrameWnd",
+      "MDIFrameWndEx",
+      "MDITabProxyWnd",
+      "MFCAcceleratorKey",
+      "MFCAcceleratorKeyAssignCtrl",
+      "MFCAutoHideBar",
+      "MFCAutoHideButton",
+      "MFCBaseAccessibleObject",
+      "MFCBaseTabCtrl",
+      "MFCBaseToolBar",
+      "MFCBaseVisualManager",
+      "MFCButton",
+      "MFCCaptionBar",
+      "MFCCaptionButton",
+      "MFCCaptionButtonEx",
+      "MFCCaptionMenuButton",
+      "MFCCmdUsageCount",
+      "MFCColorBar",
+      "MFCColorBarCmdUI",
+      "MFCColorButton",
+      "MFCColorDialog",
+      "MFCColorMenuButton",
+      "MFCColorPickerCtrl",
+      "MFCColorPopupMenu",
+      "MFCColorPropertySheet",
+      "MFCControlBarImpl",
+      "MFCControlContainer",
+      "MFCControlRenderer",
+      "MFCCustomColorsPropertyPage",
+      "MFCCustomizeButton",
+      "MFCCustomizeMenuButton",
+      "MFCDisableMenuAnimation",
+      "MFCDragFrameImpl",
+      "MFCDropDownFrame",
+      "MFCDropDownListBox",
+      "MFCDropDownToolBar",
+      "MFCDropDownToolbarButton",
+      "MFCDynamicLayout",
+      "MFCEditBrowseCtrl",
+      "MFCFilterChunkValueImpl",
+      "MFCFontComboBox",
+      "MFCFontInfo",
+      "MFCHeaderCtrl",
+      "MFCImageEditorDialog",
+      "MFCImageEditorPaletteBar",
+      "MFCImagePaintArea",
+      "MFCLinkCtrl",
+      "MFCListCtrl",
+      "MFCMaskedEdit",
+      "MFCMenuBar",
+      "MFCMenuButton",
+      "MFCMousePropertyPage",
+      "MFCOutlookBar",
+      "MFCOutlookBarPane",
+      "MFCOutlookBarPaneAdapter",
+      "MFCOutlookBarPaneButton",
+      "MFCOutlookBarPaneList",
+      "MFCOutlookBarScrollButton",
+      "MFCOutlookBarTabCtrl",
+      "MFCOutlookBarToolBar",
+      "MFCPopupMenu",
+      "MFCPopupMenuBar",
+      "MFCPrintPreviewToolBar",
+      "MFCPropertyGridColorProperty",
+      "MFCPropertyGridCtrl",
+      "MFCPropertyGridFileProperty",
+      "MFCPropertyGridFontProperty",
+      "MFCPropertyGridProperty",
+      "MFCPropertyGridToolTipCtrl",
+      "MFCPropertyPage",
+      "MFCPropertySheet",
+      "MFCPropertySheetCategoryInfo",
+      "MFCPropertySheetListBox",
+      "MFCPropertySheetTabCtrl",
+      "MFCReBar",
+      "MFCRibbonApplicationButton",
+      "MFCRibbonBar",
+      "MFCRibbonBaseElement",
+      "MFCRibbonButton",
+      "MFCRibbonButtonsGroup",
+      "MFCRibbonCaptionButton",
+      "MFCRibbonCategory",
+      "MFCRibbonCheckBox",
+      "MFCRibbonCmdUI",
+      "MFCRibbonCollector",
+      "MFCRibbonColorButton",
+      "MFCRibbonColorMenuButton",
+      "MFCRibbonComboBox",
+      "MFCRibbonCommandsListBox",
+      "MFCRibbonConstructor",
+      "MFCRibbonContextCaption",
+      "MFCRibbonCustomizeCategory",
+      "MFCRibbonCustomizeDialog",
+      "MFCRibbonCustomizePropertyPage",
+      "MFCRibbonDefaultPanelButton",
+      "MFCRibbonEdit",
+      "MFCRibbonFontComboBox",
+      "MFCRibbonGallery",
+      "MFCRibbonGalleryIcon",
+      "MFCRibbonGalleryMenuButton",
+      "MFCRibbonInfo",
+      "MFCRibbonInfoLoader",
+      "MFCRibbonKeyTip",
+      "MFCRibbonKeyboardCustomizeDialog",
+      "MFCRibbonLabel",
+      "MFCRibbonLaunchButton",
+      "MFCRibbonLinkCtrl",
+      "MFCRibbonMainPanel",
+      "MFCRibbonMainPanelButton",
+      "MFCRibbonMiniToolBar",
+      "MFCRibbonPanel",
+      "MFCRibbonPanelMenu",
+      "MFCRibbonPanelMenuBar",
+      "MFCRibbonProgressBar",
+      "MFCRibbonQuickAccessCustomizeButton",
+      "MFCRibbonQuickAccessToolBar",
+      "MFCRibbonRecentFilesList",
+      "MFCRibbonRichEditCtrl",
+      "MFCRibbonSeparator",
+      "MFCRibbonSlider",
+      "MFCRibbonSpinButtonCtrl",
+      "MFCRibbonStatusBar",
+      "MFCRibbonStatusBarCustomizeButton",
+      "MFCRibbonStatusBarPane",
+      "MFCRibbonTab",
+      "MFCRibbonTabsGroup",
+      "MFCRibbonUndoButton",
+      "MFCShadowRenderer",
+      "MFCShadowWnd",
+      "MFCShellListCtrl",
+      "MFCShellTreeCtrl",
+      "MFCShowAllButton",
+      "MFCSpinButtonCtrl",
+      "MFCStandardColorsPropertyPage",
+      "MFCStatusBar",
+      "MFCStatusBarCmdUI",
+      "MFCTabButton",
+      "MFCTabCtrl",
+      "MFCTabDropTarget",
+      "MFCTabInfo",
+      "MFCTasksPane",
+      "MFCTasksPaneFrameWnd",
+      "MFCTasksPanePropertyPage",
+      "MFCTasksPaneTask",
+      "MFCTasksPaneTaskGroup",
+      "MFCTasksPaneToolBar",
+      "MFCTasksPaneToolBarCmdUI",
+      "MFCToolBar",
+      "MFCToolBarButton",
+      "MFCToolBarButtonCustomizeDialog",
+      "MFCToolBarButtonsListButton",
+      "MFCToolBarCmdUI",
+      "MFCToolBarColorButton",
+      "MFCToolBarComboBoxButton",
+      "MFCToolBarComboBoxEdit",
+      "MFCToolBarDropSource",
+      "MFCToolBarDropTarget",
+      "MFCToolBarEditBoxButton",
+      "MFCToolBarEditCtrl",
+      "MFCToolBarFontComboBox",
+      "MFCToolBarFontSizeComboBox",
+      "MFCToolBarImages",
+      "MFCToolBarMenuButton",
+      "MFCToolBarMenuButtonsButton",
+      "MFCToolBarNameDialog",
+      "MFCToolBarSystemMenuButton",
+      "MFCToolBarsCommandsListBox",
+      "MFCToolBarsCommandsPropertyPage",
+      "MFCToolBarsCustomizeDialog",
+      "MFCToolBarsKeyboardPropertyPage",
+      "MFCToolBarsListCheckBox",
+      "MFCToolBarsListPropertyPage",
+      "MFCToolBarsMenuPropertyPage",
+      "MFCToolBarsOptionsPropertyPage",
+      "MFCToolBarsToolsPropertyPage",
+      "MFCToolTipCtrl",
+      "MFCVisualManager",
+      "MFCVisualManagerBitmapCache",
+      "MFCVisualManagerOffice2003",
+      "MFCVisualManagerOffice2007",
+      "MFCVisualManagerOfficeXP",
+      "MFCWindowsManagerDialog",
+      "MFCZoomKernel",
+      "MapPtrToPtr",
+      "MapStringToPtr",
+      "MapWordToOb",
+      "MemDC",
+      "MemFile",
+      "MemoryException",
+      "Menu",
+      "MenuHash",
+      "MenuTearOffManager",
+      "MetaFileDC",
+      "MiniDockFrameWnd",
+      "MiniFrameWnd",
+      "MirrorFile",
+      "MouseManager",
+      "MultiDocTemplate",
+      "MultiPaneFrameWnd",
+      "MyMemDC",
+      "NameNode",
+      "NameStatusNode",
+      "NewTypeDlg",
+      "NoTrackObject",
+      "NotSupportedException",
+      "ObArray",
+      "ObList",
+      "Object",
+      "OccManager",
+      "OleBusyDialog",
+      "OleClientItem",
+      "OleCmdUI",
+      "OleCntrFrameWnd",
+      "OleCntrFrameWndEx",
+      "OleControlContainer",
+      "OleControlLock",
+      "OleControlSite",
+      "OleControlSiteFactory",
+      "OleDataSource",
+      "OleDialog",
+      "OleDispatchException",
+      "OleDispatchImpl",
+      "OleDocIPFrameWnd",
+      "OleDocIPFrameWndEx",
+      "OleDocObjectItem",
+      "OleDocument",
+      "OleDropSource",
+      "OleDropTarget",
+      "OleException",
+      "OleFrameHook",
+      "OleIPFrameWnd",
+      "OleIPFrameWndEx",
+      "OleLinkingDoc",
+      "OleMessageFilter",
+      "OleObjectFactory",
+      "OleServerItem",
+      "OleStreamFile",
+      "OutlookCustomizeButton",
+      "OutlookOptionsDlg",
+      "PageSetupDialog",
+      "PaintDC",
+      "Palette",
+      "Pane",
+      "PaneContainer",
+      "PaneContainerManager",
+      "PaneDivider",
+      "PaneFrameWnd",
+      "PaneTrackingWnd",
+      "Pen",
+      "PngImage",
+      "PreviewDC",
+      "PreviewView",
+      "PreviewViewEx",
+      "PrintDialog",
+      "PrintingDialog",
+      "ProgressCtrl",
+      "PropertyPage",
+      "PropertySheet",
+      "PtrArray",
+      "PtrList",
+      "ROEdit",
+      "ReBar",
+      "ReBarCtrl",
+      "RecentDockSiteInfo",
+      "RecentFileList",
+      "RecentPaneContainerInfo",
+      "RenderTarget",
+      "ResourceException",
+      "Rgn",
+      "RibbonCategoryScroll",
+      "RibbonUndoLabel",
+      "RichEditCtrl",
+      "ScreenWnd",
+      "ScrollBar",
+      "ScrollView",
+      "SettingsStore",
+      "SharedFile",
+      "ShellManager",
+      "SimpleException",
+      "SliderCtrl",
+      "SmartDockingGroupGuide",
+      "SmartDockingGroupGuidesManager",
+      "SmartDockingGroupGuidesWnd",
+      "SmartDockingHighlighterWnd",
+      "SmartDockingInfo",
+      "SmartDockingManager",
+      "SmartDockingStandaloneGuide",
+      "SmartDockingStandaloneGuideWnd",
+      "SpinButtonCtrl",
+      "Static",
+      "StatusBarCtrl",
+      "StdioFile",
+      "StringArray",
+      "StringList",
+      "SyncObject",
+      "TabCtrl",
+      "TabbedPane",
+      "TagManager",
+      "TasksPaneHistoryButton",
+      "TasksPaneMenuButton",
+      "TasksPaneNavigateButton",
+      "TestCmdUI",
+      "ToolBar",
+      "ToolBarCtrl",
+      "ToolCmdUI",
+      "ToolTipCtrl",
+      "TooltipManager",
+      "TreeCtrl",
+      "TypeLibCacheMap",
+      "UIntArray",
+      "UserException",
+      "UserTool",
+      "UserToolsManager",
+      "VSListBox",
+      "VSListBoxBase",
+      "VSListBoxEditCtrl",
+      "VSToolsListBox",
+      "View",
+      "WinApp",
+      "WinAppEx",
+      "WinThread",
+      "WindowDC",
+      "Wnd",
+      "XColorStatic",
+      "XHeaderCtrl",
+      "XHyperLink",
+      "XListCtrl",
+      "XMLParser",
+      "XMLParserCollection",
+      "XMLParserRoot",
+      "airNode",
+      "charNode",
+      "harNode",
+      "ype_info"
+    ],
+    "templates": [],
+    "keywords": {
+      "BITMAP": [
+        "CBitmap",
+        "ToolboxBitmap32",
+        "ToolboxBitmap32",
+        "CD2DBitmapBrush",
+        "CD2DBitmap",
+        "CBitmapRenderTarget",
+        "DwmInvalidateIconicBitmaps",
+        "DwmSetIconicLivePreviewBitmap",
+        "SetMenuItemBitmaps",
+        "LoadBitmapW",
+        "CreateCompatibleBitmap",
+        "CreateBitmap",
+        "CreateDIBitmap",
+        "GdipCreateBitmapFromStream",
+        "GdipCreateBitmapFromFile",
+        "GdipCreateBitmapFromStreamICM",
+        "GdipCreateBitmapFromFileICM",
+        "GdipCreateBitmapFromScan0",
+        "GdipBitmapLockBits",
+        "GdipBitmapUnlockBits"
+      ],
+      "Volume": [
+        "GetVolumeInformationA"
+      ],
+      "USN": [
+        ".?AVDNameStatusNode@@"
+      ],
+      "Bitmap": [
+        "CBitmap",
+        "ToolboxBitmap32",
+        "ToolboxBitmap32",
+        "CD2DBitmapBrush",
+        "CD2DBitmap",
+        "CBitmapRenderTarget",
+        "DwmInvalidateIconicBitmaps",
+        "DwmSetIconicLivePreviewBitmap",
+        "SetMenuItemBitmaps",
+        "LoadBitmapW",
+        "CreateCompatibleBitmap",
+        "CreateBitmap",
+        "CreateDIBitmap",
+        "GdipCreateBitmapFromStream",
+        "GdipCreateBitmapFromFile",
+        "GdipCreateBitmapFromStreamICM",
+        "GdipCreateBitmapFromFileICM",
+        "GdipCreateBitmapFromScan0",
+        "GdipBitmapLockBits",
+        "GdipBitmapUnlockBits"
+      ],
+      "Attributes": [
+        "GetFileAttributesTransactedA",
+        "SetFileAttributesTransactedA",
+        "GetFileAttributesA",
+        "GetFileAttributesExA",
+        "SetFileAttributesA",
+        "SetLayeredWindowAttributes",
+        "GetFileAttributesExW"
+      ],
+      "chunk": [
+        ".?AUIFilterChunkValue@ATL@@",
+        ".?AVCMFCFilterChunkValueImpl@@"
+      ],
+      "tree": [
+        "SysTreeView32",
+        "CTreeCtrl",
+        "MFCShellTree",
+        "CMFCShellTreeCtrl",
+        "MFCShellTreeCtrl_EnableShellContextMenu",
+        "dyn trees: dyn %ld, stat %ld",
+        "lit tree: sent %ld",
+        "bl tree: sent %ld",
+        "dist tree: sent %ld",
+        ".?AVCTreeCtrl@@",
+        ".?AVCMFCShellTreeCtrl@@"
+      ],
+      "dsl": [
+        ".?AVCMFCToolBarsCommandsListBox@@",
+        ".?AVCMFCRibbonCommandsListBox@@"
+      ],
+      "arc": [
+        "CToolBarCtrl",
+        "CStatusBarCtrl",
+        "CReBarCtrl",
+        "CArchiveException",
+        "CMFCToolBarColorButton",
+        "CMFCToolBarComboBoxButton",
+        "CMFCRibbonStatusBarCustomizeButton",
+        "QuickAccessToolbarCommands",
+        "Class Hierarchy Descriptor'",
+        "SearchPathA",
+        "SetArcDirection",
+        ".?AVCStatusBarCtrl@@",
+        ".?AVCToolBarCtrl@@",
+        ".?AVCReBarCtrl@@",
+        ".?AVCArchiveException@@",
+        ".PEAVCArchiveException@@",
+        ".?AVCArchiveStream@@",
+        ".?AV?$CArray@W4LoadArrayObjType@CArchive@@AEBW412@@@",
+        ".?AVCMFCToolBarCmdUI@@",
+        ".?AVCMFCToolBarColorButton@@"
+      ],
+      "search": [
+        "SearchPathA"
+      ],
+      "scan": [
+        "wild scan",
+        "E:\\AWork\\DRW_VS17_Main\\DRWIntelligentScan\\DRWReport\\Release\\XCrashReport.pdb",
+        "GdipCreateBitmapFromScan0"
+      ],
+      "quick": [
+        "CMFCRibbonQuickAccessCustomizeButton",
+        "CMFCRibbonQuickAccessToolBar",
+        "Quick Access Toolbar",
+        "QuickAccessToolbarOnTop",
+        "QuickAccessToolbarCommands",
+        ".?AVCMFCRibbonQuickAccessToolBar@@",
+        ".?AVCMFCRibbonQuickAccessCustomizeButton@@"
+      ],
+      "complete": [
+        "AFX_WM_ON_DRAGCOMPLETE",
+        "AFX_WM_ON_MOVETABCOMPLETE",
+        "Complete Object Locator'",
+        "Zip-bug: internal initialisation not completed"
+      ],
+      "full": [
+        "MFCButton_FullTextTool",
+        "MFCLink_FullTextTooltip",
+        "FullScreeenState",
+        "GetFullPathNameA",
+        ".?AVCFullScreenImpl@@",
+        ".?AVCFullScreenToolbar@@"
+      ],
+      "deleted": [
+        "DeleteDC"
+      ],
+      "recover": [
+        "RegisterApplicationRecoveryCallback",
+        "ApplicationRecoveryInProgress",
+        "ApplicationRecoveryFinished",
+        ".?AVCDataRecoveryHandler@@"
+      ],
+      "restore": [
+        "IDB_OFFICE2007_SYS_BTN_RESTORE",
+        "RestoreDC",
+        ".?AV?$CList@UCMFCRestoredTabInfo@@U1@@@"
+      ],
+      "log": [
+        "AFX_DIALOG_LAYOUT",
+        "CDialog",
+        "TaskDialogIndirect",
+        "CCommonDialog",
+        "CFileDialog",
+        "CFolderPickerDialog",
+        "CFontDialog",
+        "CMFCToolBarsCustomizeDialog",
+        "CDialogEx",
+        "CColorDialog",
+        "CPrintDialog",
+        "CPageSetupDialog",
+        "COleDialog",
+        "COleBusyDialog",
+        "CMFCRibbonCustomizeDialog",
+        "CDialogBar",
+        "CFindReplaceDialog",
+        "log10f",
+        "DRWLog.log",
+        "IsDialogMessageA"
+      ],
+      "debug": [
+        "OutputDebugStringA",
+        "IsDebuggerPresent",
+        "OutputDebugStringW"
+      ],
+      "trace": [
+        "atlTraceGeneral",
+        "atlTraceCOM",
+        "atlTraceQI",
+        "atlTraceRegistrar",
+        "atlTraceRefcount",
+        "atlTraceWindowing",
+        "atlTraceControls",
+        "atlTraceHosting",
+        "atlTraceDBClient",
+        "atlTraceDBProvider",
+        "atlTraceSnapin",
+        "atlTraceNotImpl",
+        "atlTraceAllocation",
+        "atlTraceException",
+        "atlTraceTime",
+        "atlTraceCache",
+        "atlTraceStencil",
+        "atlTraceString",
+        "atlTraceMap",
+        "atlTraceUtil"
+      ],
+      "Event": [
+        "SetEvent",
+        "CreateEventA",
+        "ResetEvent",
+        "CreateEventW",
+        "TrackMouseEvent",
+        "NotifyWinEvent",
+        ".?AUINotifyDBEvents@@",
+        ".?AVXEventSink@COleControlSite@@",
+        ".?AVXNotifyDBEvents@COleControlSite@@",
+        ".?AUIFileDialogEvents@@",
+        ".?AUIFileDialogControlEvents@@",
+        ".?AVXFileDialogEvents@CFileDialog@@",
+        ".?AVXFileDialogControlEvents@CFileDialog@@"
+      ]
+    }
+  },
+  "NTFSSearchDLL.dll": {
+    "classes": [
+      "BuildVolumeBitmap",
+      "CompleteFileSystemSearchController",
+      "DataRunList",
+      "FileNode",
+      "FileProperties",
+      "FileSystemNode",
+      "FileSystemSearchController",
+      "NTFSBuildVolumeBitmap",
+      "NTFSFileProperties",
+      "NTFSFileRecordAttribute",
+      "NTFSFileRecordDataRunsAttribute",
+      "NTFSFileRecordFileNameAttribute",
+      "NTFSQuickSearch",
+      "NTFSQuickSearchBase",
+      "NTFSSearchController",
+      "NoneResidentNTFSDataRunList",
+      "QuickFileSystemSearchController",
+      "ResidentNTFSDataRunList",
+      "SearchedNTFSPartitionInfo",
+      "SearchedPartitionInfo",
+      "StorageDevice",
+      "StorageDeviceWithCache",
+      "ype_info"
+    ],
+    "templates": [],
+    "keywords": {
+      "MFT": [
+        "MFT file record has 0x20 attribute, MFT start sector is %I64d",
+        ".?AV?$_Ref_count@VCMFTInfo@@@std@@",
+        ".?AV?$_Ref_count_obj@VCMFTInfo@@@std@@"
+      ],
+      "BITMAP": [
+        ".?AVIBuildVolumeBitmap@@",
+        ".?AVCNTFSBuildVolumeBitmap@@"
+      ],
+      "Volume": [
+        ".?AVIBuildVolumeBitmap@@",
+        ".?AVCNTFSBuildVolumeBitmap@@"
+      ],
+      "USN": [
+        "$UsnJrnl"
+      ],
+      "resident": [
+        ".?AVCNoneResidentNTFSDataRunList@@",
+        ".?AVCResidentNTFSDataRunList@@"
+      ],
+      "BPB": [
+        "B B!B\"B#B$B%B&B'B(B)B*B+B,B-B.B/B0B1B2B3B4B5B6B7B8B9B:B;B<B=B>B?B@BABBBCBDBEBFBGBHBIBJBKBLBMBNBOBPBQBRBSBTBUBVBWBXBYBZB[B\\B]B^B_B`BaBbBcBdBeBfBgBhBiBjBkBlBmBnBoBpBqBrBsBtBuBvBwBxByBzB{B|B}B~B",
+        "b b!b\"b#b$b%b&b'b(b)b*b+b,b-b.b/b0b1b2b3b4b5b6b7b8b9b:b;b<b=b>b?b@bAbBbCbDbEbFbGbHbIbJbKbLbMbNbObPbQbRbSbTbUbVbWbXbYbZb[b\\b]b^b_b`babbbcbdbebfbgbhbibjbkblbmbnbobpbqbrbsbtbubvbwbxbybzb{b|b}b~b"
+      ],
+      "Bitmap": [
+        ".?AVIBuildVolumeBitmap@@",
+        ".?AVCNTFSBuildVolumeBitmap@@"
+      ],
+      "HFSPlus": [
+        "HFSPLUS"
+      ],
+      "Attributes": [
+        "Error reading Attributes."
+      ],
+      "metadata": [
+        "$RmMetadata$Reparse$Repair"
+      ],
+      "arc": [
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\NTFSSearchDLL.pdb",
+        "NTFSSearchDLL.dll",
+        "EUCreateNTFSQuickSearcher",
+        "EUCreateNTFSSearcher",
+        ".?AVIFileSystemSearchController@@",
+        ".?AVCNTFSQuickSearch@@",
+        ".?AVCNTFSQuickSearchBase@@",
+        ".?AVIQuickFileSystemSearchController@@",
+        ".?AVCNTFSSearchController@@",
+        ".?AVICompleteFileSystemSearchController@@",
+        ".?AVCSearchedNTFSPartitionInfo@@",
+        ".?AVCSearchedPartitionInfo@@"
+      ],
+      "search": [
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\NTFSSearchDLL.pdb",
+        "NTFSSearchDLL.dll",
+        "EUCreateNTFSQuickSearcher",
+        "EUCreateNTFSSearcher",
+        ".?AVIFileSystemSearchController@@",
+        ".?AVCNTFSQuickSearch@@",
+        ".?AVCNTFSQuickSearchBase@@",
+        ".?AVIQuickFileSystemSearchController@@",
+        ".?AVCNTFSSearchController@@",
+        ".?AVICompleteFileSystemSearchController@@",
+        ".?AVCSearchedNTFSPartitionInfo@@",
+        ".?AVCSearchedPartitionInfo@@"
+      ],
+      "scan": [
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\NTFSSearchDLL.pdb"
+      ],
+      "quick": [
+        "EUCreateNTFSQuickSearcher",
+        ".?AVCNTFSQuickSearch@@",
+        ".?AVCNTFSQuickSearchBase@@",
+        ".?AVIQuickFileSystemSearchController@@"
+      ],
+      "complete": [
+        ".?AVICompleteFileSystemSearchController@@"
+      ],
+      "lost": [
+        "File Path Lost",
+        "LostDir"
+      ],
+      "log": [
+        "$LogFile",
+        "?LogInfo@@YAXPEBDZZ",
+        "PubLog.dll"
+      ],
+      "debug": [
+        "IsDebuggerPresent",
+        "OutputDebugStringW"
+      ],
+      "Event": [
+        "FCPEVENT",
+        "SetEvent",
+        "ResetEvent",
+        "CreateEventW"
+      ]
+    }
+  },
+  "FATSearchDLL.dll": {
+    "classes": [
+      "CalcPartition",
+      "CompleteFileSystemSearchController",
+      "DataRunList",
+      "DoubleFATTable",
+      "FAT12Table",
+      "FAT16Table",
+      "FAT32Table",
+      "FATDataRunList",
+      "FATFileProperties",
+      "FATQuickSearch",
+      "FATSearchedPartitionInfo",
+      "FATTable",
+      "FatCompleteSearch",
+      "FatFolderAnalyzeCB",
+      "FileNode",
+      "FileProperties",
+      "FileSystemNode",
+      "FileSystemSearchController",
+      "NTFSFileProperties",
+      "NTFSFileRecordAttribute",
+      "NTFSFileRecordDataRunsAttribute",
+      "NTFSFileRecordFileNameAttribute",
+      "NoneResidentNTFSDataRunList",
+      "QuickFileSystemSearchController",
+      "RawFileInfo",
+      "RealFATTable",
+      "RecycleBinNode2UI",
+      "ResidentNTFSDataRunList",
+      "SearchedPartitionInfo",
+      "at32CalcPartition",
+      "ype_info"
+    ],
+    "templates": [],
+    "keywords": {
+      "BITMAP": [
+        "---FDTBitmap:%I64d-%d"
+      ],
+      "Volume": [
+        "System Volume Information"
+      ],
+      "cluster": [
+        "Some thing must be wrong! \t\t\t\t\t\t\tWe found two undeleted directory got the same first cluster number!",
+        "##Build Lost Cluster %d Sector %I64d",
+        "Replace a temp directory %s first clusternum %x with directory %s firstclusternum %x!"
+      ],
+      "resident": [
+        ".?AVCNoneResidentNTFSDataRunList@@",
+        ".?AVCResidentNTFSDataRunList@@"
+      ],
+      "FAT12": [
+        ".?AVCFAT12Table@@"
+      ],
+      "FAT16": [
+        "FAT16",
+        ".?AVCFAT16Table@@"
+      ],
+      "FAT32": [
+        "FAT32",
+        "/tmp/log/Fat32FatTabelLog.log",
+        "c:\\log\\Fat32FatTabelLog.log",
+        ".?AVFat32CalcPartition@@",
+        ".?AVCFAT32Table@@"
+      ],
+      "directory entry": [
+        "Unporcessed long file name directory entry at %d"
+      ],
+      "Bitmap": [
+        "---FDTBitmap:%I64d-%d"
+      ],
+      "HFSPlus": [
+        "HFSPLUS"
+      ],
+      "Attributes": [
+        "Error reading Attributes."
+      ],
+      "metadata": [
+        "$RmMetadata$Reparse$Repair"
+      ],
+      "arc": [
+        "RAWSearchDLL.dll",
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\FATSearchDLL.pdb",
+        "FATSearchDLL.dll",
+        "EUCreateFATQuickSearcher",
+        "EUCreateFATSearcher",
+        ".?AVCFATSearchedPartitionInfo@@",
+        ".?AVICompleteFileSystemSearchController@@",
+        ".?AVIFileSystemSearchController@@",
+        ".?AVCSearchedPartitionInfo@@",
+        ".?AVCFatCompleteSearch@@",
+        ".?AVCFATQuickSearchWorker@CFATQuickSearch@@",
+        ".?AVCFATQuickSearch@@",
+        ".?AVIQuickFileSystemSearchController@@"
+      ],
+      "search": [
+        "RAWSearchDLL.dll",
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\FATSearchDLL.pdb",
+        "FATSearchDLL.dll",
+        "EUCreateFATQuickSearcher",
+        "EUCreateFATSearcher",
+        ".?AVCFATSearchedPartitionInfo@@",
+        ".?AVICompleteFileSystemSearchController@@",
+        ".?AVIFileSystemSearchController@@",
+        ".?AVCSearchedPartitionInfo@@",
+        ".?AVCFatCompleteSearch@@",
+        ".?AVCFATQuickSearchWorker@CFATQuickSearch@@",
+        ".?AVCFATQuickSearch@@",
+        ".?AVIQuickFileSystemSearchController@@"
+      ],
+      "scan": [
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\FATSearchDLL.pdb"
+      ],
+      "quick": [
+        "EUCreateFATQuickSearcher",
+        ".?AVCFATQuickSearchWorker@CFATQuickSearch@@",
+        ".?AVCFATQuickSearch@@",
+        ".?AVIQuickFileSystemSearchController@@"
+      ],
+      "complete": [
+        ".?AVICompleteFileSystemSearchController@@",
+        ".?AVCFatCompleteSearch@@"
+      ],
+      "full": [
+        "Insert2PreFullFDTDir: ParentInfo:"
+      ],
+      "deleted": [
+        "Some thing must be wrong! \t\t\t\t\t\t\tWe found two undeleted directory got the same first cluster number!"
+      ],
+      "lost": [
+        ",lostSector:",
+        "LostDir%d",
+        "File Path Lost",
+        "##Build Lost Cluster %d Sector %I64d",
+        "LostDir"
+      ],
+      "recover": [
+        "AadRecoveryPasswordDelete",
+        "ClientRecoveryPasswordRotation"
+      ],
+      "log": [
+        "/tmp/log/eufatlog.log",
+        "c:\\log\\eufatlog.log",
+        "%s\\log\\DelFat.log",
+        "/tmp/log/Fat32FatTabelLog.log",
+        "c:\\log\\Fat32FatTabelLog.log",
+        "PubLog.dll"
+      ],
+      "debug": [
+        "IsDebuggerPresent",
+        "OutputDebugStringW"
+      ],
+      "trace": [
+        "?ReleaseTrace@@YAXPEBDZZ"
+      ],
+      "Event": [
+        "FCPEVENT",
+        "SetEvent",
+        "ResetEvent",
+        "CreateEventW",
+        "FCPEVENT",
+        "FCPEVENT"
+      ]
+    }
+  },
+  "exFATSearchDLL.dll": {
+    "classes": [
+      "CalcPartition",
+      "CompleteFileSystemSearchController",
+      "DataRunList",
+      "ExFatCompleteSearch",
+      "ExFatDataRunList",
+      "ExFatFileProperties",
+      "ExFatPartition",
+      "ExFatPartitionEx",
+      "ExFatQuickSearch",
+      "ExFatQuickSearchEx",
+      "ExFatVolumeAnalyer",
+      "FileNode",
+      "FileProperties",
+      "FileSystemNode",
+      "FileSystemSearchController",
+      "NTFSFileProperties",
+      "NTFSFileRecordAttribute",
+      "NTFSFileRecordDataRunsAttribute",
+      "NTFSFileRecordFileNameAttribute",
+      "NoneResidentNTFSDataRunList",
+      "QuickFileSystemSearchController",
+      "QuickSearchAndBuildBitmap",
+      "ResidentNTFSDataRunList",
+      "SearchedPartitionInfo",
+      "Volume",
+      "xFatCalcPartition",
+      "ype_info"
+    ],
+    "templates": [],
+    "keywords": {
+      "BITMAP": [
+        ".?AVCQuickSearchAndBuildBitmap@@"
+      ],
+      "Volume": [
+        ".?AVCExFatVolumeAnalyer@@",
+        ".?AVIVolume@@"
+      ],
+      "resident": [
+        ".?AVCResidentNTFSDataRunList@@",
+        ".?AVCNoneResidentNTFSDataRunList@@"
+      ],
+      "exFAT": [
+        "c:\\log\\euExfat.log",
+        "%s\\log\\DelexFat.log",
+        "EXFAT",
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\exFATSearchDLL.pdb",
+        "exFATSearchDLL.dll",
+        "EUCreateEXFATQuickSearcher",
+        "EUCreateEXFATSearcher",
+        ".?AVCExFatQuickSearch@@",
+        ".?AVCExFatPartitionEx@@",
+        ".?AVCExFatCompleteSearch@@",
+        ".?AVCExFatQuickSearchEx@@",
+        ".?AVCExFatVolumeAnalyer@@",
+        ".?AVCExFatFileProperties@@",
+        ".?AVExFatCalcPartition@@",
+        ".?AVCExFatDataRunList@@",
+        ".?AVCExFatPartition@@"
+      ],
+      "Bitmap": [
+        ".?AVCQuickSearchAndBuildBitmap@@"
+      ],
+      "HFSPlus": [
+        "HFSPLUS"
+      ],
+      "Attributes": [
+        "Error reading Attributes."
+      ],
+      "metadata": [
+        "$RmMetadata$Reparse$Repair"
+      ],
+      "arc": [
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\exFATSearchDLL.pdb",
+        "exFATSearchDLL.dll",
+        "EUCreateEXFATQuickSearcher",
+        "EUCreateEXFATSearcher",
+        ".?AVIFileSystemSearchController@@",
+        ".?AVCExFatQuickSearch@@",
+        ".?AVIQuickFileSystemSearchController@@",
+        ".?AVICompleteFileSystemSearchController@@",
+        ".?AVCSearchedPartitionInfo@@",
+        ".?AVCExFatCompleteSearch@@",
+        ".?AVCQuickSearchAndBuildBitmap@@",
+        ".?AVCExFatQuickSearchEx@@"
+      ],
+      "search": [
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\exFATSearchDLL.pdb",
+        "exFATSearchDLL.dll",
+        "EUCreateEXFATQuickSearcher",
+        "EUCreateEXFATSearcher",
+        ".?AVIFileSystemSearchController@@",
+        ".?AVCExFatQuickSearch@@",
+        ".?AVIQuickFileSystemSearchController@@",
+        ".?AVICompleteFileSystemSearchController@@",
+        ".?AVCSearchedPartitionInfo@@",
+        ".?AVCExFatCompleteSearch@@",
+        ".?AVCQuickSearchAndBuildBitmap@@",
+        ".?AVCExFatQuickSearchEx@@"
+      ],
+      "scan": [
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\exFATSearchDLL.pdb"
+      ],
+      "quick": [
+        "EUCreateEXFATQuickSearcher",
+        ".?AVCExFatQuickSearch@@",
+        ".?AVIQuickFileSystemSearchController@@",
+        ".?AVCQuickSearchAndBuildBitmap@@",
+        ".?AVCExFatQuickSearchEx@@"
+      ],
+      "complete": [
+        ".?AVICompleteFileSystemSearchController@@",
+        ".?AVCExFatCompleteSearch@@"
+      ],
+      "lost": [
+        "LostDir%d"
+      ],
+      "log": [
+        "c:\\log\\euExfat.log",
+        "%s\\log\\DelexFat.log",
+        "c:\\log\\eufatlog.log"
+      ],
+      "debug": [
+        "IsDebuggerPresent"
+      ],
+      "Event": [
+        "FCPEVENT",
+        "SetEvent",
+        "ResetEvent",
+        "CreateEventW",
+        "FCPEVENT"
+      ]
+    }
+  },
+  "HFSPlusSearchDLL.dll": {
+    "classes": [
+      "CompleteFileSystemSearchController",
+      "DataRunList",
+      "DirecotryTreeBuilder",
+      "FSPlusFileDataRun",
+      "FSPlusFileProperties",
+      "FSPlusSystemNodeProperties",
+      "FileNode",
+      "FileProperties",
+      "FileSystemNode",
+      "FileSystemSearchController",
+      "HFSPlusAttribute",
+      "HFSPlusBTreeOption",
+      "HFSPlusBTreeOptionBase",
+      "HFSPlusCatalog",
+      "HFSPlusCompleteFileSystemSearchController",
+      "HFSPlusExtents",
+      "HFSPlusFileCache",
+      "HFSPlusFileNode",
+      "HFSPlusQuickFileSystemSearchController",
+      "HFSPlusRawfile",
+      "NoneResidentNTFSDataRunList",
+      "PartitionVirtualVolumeDevice",
+      "QuickFileSystemSearchController",
+      "ResidentNTFSDataRunList",
+      "SearchedPartitionInfo",
+      "StorageDevice",
+      "etourDirectoryTree",
+      "ype_info"
+    ],
+    "templates": [],
+    "keywords": {
+      "Volume": [
+        "Can't Find Volume Start Sector!",
+        "Can't Find Volume Head!",
+        "CHFSPlusVolume::CHFSPlusVolume",
+        "e:\\drw\\_drw_main\\drwintelligentscan\\hfspluslib\\hfsplusvolume.cpp",
+        ".?AVCPartitionVirtualVolumeDevice@@"
+      ],
+      "cluster": [
+        "Warn:SectorsperCluster calc Error!"
+      ],
+      "resident": [
+        ".?AVCNoneResidentNTFSDataRunList@@",
+        ".?AVCResidentNTFSDataRunList@@"
+      ],
+      "HFS+": [
+        "HFS+ Private Data"
+      ],
+      "HFSPlus": [
+        "CHFSPlusQuickFileSystemSearchController::QuickSearchFiles",
+        "e:\\drw\\_drw_main\\drwintelligentscan\\hfsplussearch\\hfsplusquickfilesystemsearchcontroller.cpp",
+        "e:\\drw\\_drw_main\\drwintelligentscan\\hfsplussearch\\hfspluscompletefilesystemsearchcontroller.cpp",
+        "CHFSPlusCompleteFileSystemSearchController::AnalyzeNode",
+        "HFSPlus",
+        "CHFSPlusVolume::CHFSPlusVolume",
+        "e:\\drw\\_drw_main\\drwintelligentscan\\hfspluslib\\hfsplusvolume.cpp",
+        "CHFSPlusAttribute::CHFSPlusAttribute",
+        "e:\\drw\\_drw_main\\drwintelligentscan\\hfspluslib\\hfsplusattribute.cpp",
+        "CHFSPlusAttribute::ReadKey",
+        "CHFSPlusAttribute::ReadData",
+        "CHFSPlusCatalog::CHFSPlusCatalog",
+        "e:\\drw\\_drw_main\\drwintelligentscan\\hfspluslib\\hfspluscatalog.cpp",
+        "CHFSPlusCatalog::ReadKey",
+        "CHFSPlusCatalog::ReadData",
+        "CHFSPlusExtents::CHFSPlusExtents",
+        "e:\\drw\\_drw_main\\drwintelligentscan\\hfspluslib\\hfsplusextents.cpp",
+        "CHFSPlusExtents::ReadKey",
+        "CHFSPlusExtents::ReadData",
+        "e:\\drw\\_drw_main\\drwintelligentscan\\hfspluslib\\hfsplusbtnode.cpp"
+      ],
+      "BTree": [
+        "CHFSPlusBTreeOptionBase::CHFSPlusBTreeOptionBase",
+        "e:\\drw\\_drw_main\\drwintelligentscan\\hfspluslib\\hfsplusbtreeoption.cpp",
+        "CHFSPlusBTreeOptionBase::CreateNode",
+        "CHFSPlusBTreeOptionBase::GetChild",
+        "CHFSPlusBTree::Search",
+        "e:\\drw\\_drw_main\\drwintelligentscan\\hfspluslib\\hfsplusbtree.cpp",
+        "CHFSPlusBTree::Traverse",
+        "CHFSPlusBTree::SearchNode",
+        "CHFSPlusBTree::TraverseNode",
+        ".?AVIHFSPlusBTreeOption@@",
+        ".?AVCHFSPlusBTreeOptionBase@@"
+      ],
+      "Catalog": [
+        "CHFSPlusCatalog::CHFSPlusCatalog",
+        "e:\\drw\\_drw_main\\drwintelligentscan\\hfspluslib\\hfspluscatalog.cpp",
+        "CHFSPlusCatalog::ReadKey",
+        "CHFSPlusCatalog::ReadData",
+        ".?AVCHFSPlusCatalog@@"
+      ],
+      "Extents": [
+        "CHFSPlusExtents::CHFSPlusExtents",
+        "e:\\drw\\_drw_main\\drwintelligentscan\\hfspluslib\\hfsplusextents.cpp",
+        "CHFSPlusExtents::ReadKey",
+        "CHFSPlusExtents::ReadData",
+        ".?AVCHFSPlusExtents@@"
+      ],
+      "Attributes": [
+        "Error reading Attributes."
+      ],
+      "tree": [
+        "CHFSPlusBTreeOptionBase::CHFSPlusBTreeOptionBase",
+        "e:\\drw\\_drw_main\\drwintelligentscan\\hfspluslib\\hfsplusbtreeoption.cpp",
+        "CHFSPlusBTreeOptionBase::CreateNode",
+        "CHFSPlusBTreeOptionBase::GetChild",
+        "CHFSPlusBTree::Search",
+        "e:\\drw\\_drw_main\\drwintelligentscan\\hfspluslib\\hfsplusbtree.cpp",
+        "CHFSPlusBTree::Traverse",
+        "CHFSPlusBTree::SearchNode",
+        "CHFSPlusBTree::TraverseNode",
+        ".?AVIDirecotryTreeBuilder@@",
+        ".?AVDetourDirectoryTree@@",
+        ".?AVIHFSPlusBTreeOption@@",
+        ".?AVCHFSPlusBTreeOptionBase@@"
+      ],
+      "arc": [
+        "CHFSPlusQuickFileSystemSearchController::QuickSearchFiles",
+        "e:\\drw\\_drw_main\\drwintelligentscan\\hfsplussearch\\hfsplusquickfilesystemsearchcontroller.cpp",
+        "e:\\drw\\_drw_main\\drwintelligentscan\\hfsplussearch\\hfspluscompletefilesystemsearchcontroller.cpp",
+        "CHFSPlusCompleteFileSystemSearchController::AnalyzeNode",
+        "CHFSPlusBTree::Search",
+        "CHFSPlusBTree::SearchNode",
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\HFSPlusSearchDLL.pdb",
+        "HFSPlusSearchDLL.dll",
+        "EUCreateHFSQuickSearcher",
+        "EUCreateHFSSearcher",
+        ".?AVIFileSystemSearchController@@",
+        ".?AVIQuickFileSystemSearchController@@",
+        ".?AVCHFSPlusQuickFileSystemSearchController@@",
+        ".?AVCSearchedPartitionInfo@@",
+        ".?AVICompleteFileSystemSearchController@@",
+        ".?AVCHFSPlusCompleteFileSystemSearchController@@",
+        ".?AUCompleteSearchPatition@@"
+      ],
+      "search": [
+        "CHFSPlusQuickFileSystemSearchController::QuickSearchFiles",
+        "e:\\drw\\_drw_main\\drwintelligentscan\\hfsplussearch\\hfsplusquickfilesystemsearchcontroller.cpp",
+        "e:\\drw\\_drw_main\\drwintelligentscan\\hfsplussearch\\hfspluscompletefilesystemsearchcontroller.cpp",
+        "CHFSPlusCompleteFileSystemSearchController::AnalyzeNode",
+        "CHFSPlusBTree::Search",
+        "CHFSPlusBTree::SearchNode",
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\HFSPlusSearchDLL.pdb",
+        "HFSPlusSearchDLL.dll",
+        "EUCreateHFSQuickSearcher",
+        "EUCreateHFSSearcher",
+        ".?AVIFileSystemSearchController@@",
+        ".?AVIQuickFileSystemSearchController@@",
+        ".?AVCHFSPlusQuickFileSystemSearchController@@",
+        ".?AVCSearchedPartitionInfo@@",
+        ".?AVICompleteFileSystemSearchController@@",
+        ".?AVCHFSPlusCompleteFileSystemSearchController@@",
+        ".?AUCompleteSearchPatition@@"
+      ],
+      "scan": [
+        "e:\\drw\\_drw_main\\drwintelligentscan\\hfsplussearch\\hfsplusquickfilesystemsearchcontroller.cpp",
+        "e:\\drw\\_drw_main\\drwintelligentscan\\hfsplussearch\\hfspluscompletefilesystemsearchcontroller.cpp",
+        "e:\\drw\\_drw_main\\drwintelligentscan\\hfspluslib\\hfsplusvolume.cpp",
+        "e:\\drw\\_drw_main\\drwintelligentscan\\hfspluslib\\hfsplusattribute.cpp",
+        "e:\\drw\\_drw_main\\drwintelligentscan\\hfspluslib\\hfspluscatalog.cpp",
+        "e:\\drw\\_drw_main\\drwintelligentscan\\hfspluslib\\hfsplusextents.cpp",
+        "e:\\drw\\_drw_main\\drwintelligentscan\\hfspluslib\\hfsplusbtnode.cpp",
+        "e:\\drw\\_drw_main\\drwintelligentscan\\hfspluslib\\hfsplusrawfile.cpp",
+        "e:\\drw\\_drw_main\\drwintelligentscan\\hfspluslib\\hfsplusjournal.cpp",
+        "e:\\drw\\_drw_main\\drwintelligentscan\\hfspluslib\\hfsplusbtreeoption.cpp",
+        "e:\\drw\\_drw_main\\drwintelligentscan\\hfspluslib\\hfsplusbtree.cpp",
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\HFSPlusSearchDLL.pdb"
+      ],
+      "quick": [
+        "CHFSPlusQuickFileSystemSearchController::QuickSearchFiles",
+        "e:\\drw\\_drw_main\\drwintelligentscan\\hfsplussearch\\hfsplusquickfilesystemsearchcontroller.cpp",
+        "EUCreateHFSQuickSearcher",
+        ".?AVIQuickFileSystemSearchController@@",
+        ".?AVCHFSPlusQuickFileSystemSearchController@@"
+      ],
+      "complete": [
+        "e:\\drw\\_drw_main\\drwintelligentscan\\hfsplussearch\\hfspluscompletefilesystemsearchcontroller.cpp",
+        "CHFSPlusCompleteFileSystemSearchController::AnalyzeNode",
+        ".?AVICompleteFileSystemSearchController@@",
+        ".?AVCHFSPlusCompleteFileSystemSearchController@@",
+        ".?AUCompleteSearchPatition@@"
+      ],
+      "log": [
+        "CHFSPlusCatalog::CHFSPlusCatalog",
+        "e:\\drw\\_drw_main\\drwintelligentscan\\hfspluslib\\hfspluscatalog.cpp",
+        "CHFSPlusCatalog::ReadKey",
+        "CHFSPlusCatalog::ReadData",
+        ".?AVCHFSPlusCatalog@@"
+      ],
+      "debug": [
+        "IsDebuggerPresent",
+        "OutputDebugStringW"
+      ],
+      "Event": [
+        "SetEvent",
+        "ResetEvent",
+        "CreateEventW"
+      ]
+    }
+  },
+  "EXT4SearchDLL.dll": {
+    "classes": [
+      "CompleteFileSystemSearchController",
+      "DataRunList",
+      "EXT4CatchBufferDeviceProxy",
+      "EXT4CompleteSearch",
+      "EXT4FileProperties",
+      "EXT4QuickSearch",
+      "Ext4DataRunList",
+      "FileNode",
+      "FileProperties",
+      "FileSystemNode",
+      "FileSystemSearchController",
+      "NoneResidentNTFSDataRunList",
+      "QuickFileSystemSearchController",
+      "ResidentNTFSDataRunList",
+      "StorageDevice",
+      "XT4CatchBufferObj",
+      "xt4Volume",
+      "ype_info"
+    ],
+    "templates": [],
+    "keywords": {
+      "BITMAP": [
+        "---------------------fillbitmap :sector:%I64d,cnt:%I64d############################"
+      ],
+      "Volume": [
+        ".?AVExt4Volume@@"
+      ],
+      "resident": [
+        ".?AVCNoneResidentNTFSDataRunList@@",
+        ".?AVCResidentNTFSDataRunList@@"
+      ],
+      "Bitmap": [
+        "---------------------fillbitmap :sector:%I64d,cnt:%I64d############################"
+      ],
+      "HFSPlus": [
+        "HFSPLUS"
+      ],
+      "ext4": [
+        "%s\\log\\ext4.log",
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\EXT4SearchDLL.pdb",
+        "EXT4SearchDLL.dll",
+        "EUCreateEXT4QuickSearcher",
+        "EUCreateEXT4Searcher",
+        ".?AVCEXT4QuickSearch@@",
+        ".?AVCEXT4CompleteSearch@@",
+        ".?AVEXT4CatchBufferObj@@",
+        ".?AVCEXT4CatchBufferDeviceProxy@@",
+        ".?AVExt4Volume@@",
+        ".?AVCExt4DataRunList@@",
+        ".?AVCEXT4FileProperties@@"
+      ],
+      "inode": [
+        "iNode%I64d"
+      ],
+      "arc": [
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\EXT4SearchDLL.pdb",
+        "EXT4SearchDLL.dll",
+        "EUCreateEXT4QuickSearcher",
+        "EUCreateEXT4Searcher",
+        ".?AVIFileSystemSearchController@@",
+        ".?AVCEXT4QuickSearch@@",
+        ".?AVIQuickFileSystemSearchController@@",
+        ".?AVICompleteFileSystemSearchController@@",
+        ".?AVCEXT4CompleteSearch@@"
+      ],
+      "search": [
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\EXT4SearchDLL.pdb",
+        "EXT4SearchDLL.dll",
+        "EUCreateEXT4QuickSearcher",
+        "EUCreateEXT4Searcher",
+        ".?AVIFileSystemSearchController@@",
+        ".?AVCEXT4QuickSearch@@",
+        ".?AVIQuickFileSystemSearchController@@",
+        ".?AVICompleteFileSystemSearchController@@",
+        ".?AVCEXT4CompleteSearch@@"
+      ],
+      "scan": [
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\EXT4SearchDLL.pdb"
+      ],
+      "quick": [
+        "EUCreateEXT4QuickSearcher",
+        ".?AVCEXT4QuickSearch@@",
+        ".?AVIQuickFileSystemSearchController@@"
+      ],
+      "complete": [
+        ".?AVICompleteFileSystemSearchController@@",
+        ".?AVCEXT4CompleteSearch@@"
+      ],
+      "log": [
+        "%s\\log\\ext4.log"
+      ],
+      "debug": [
+        "IsDebuggerPresent",
+        "OutputDebugStringW",
+        "OutputDebugStringA"
+      ],
+      "Event": [
+        "SetEvent",
+        "ResetEvent",
+        "CreateEventW"
+      ]
+    }
+  },
+  "BtrfsSearchDLL.dll": {
+    "classes": [
+      "BtrfsFileProerties",
+      "BtrfsNoResidentDataRunList",
+      "BtrfsQuickSearch",
+      "DataRunList",
+      "FileNode",
+      "FileProperties",
+      "FileSystemNode",
+      "FileSystemSearchController",
+      "NoneResidentNTFSDataRunList",
+      "QuickFileSystemSearchController",
+      "ResidentNTFSDataRunList",
+      "SearchedBtrfsPartitionInfo",
+      "SearchedPartitionInfo",
+      "ype_info"
+    ],
+    "templates": [],
+    "keywords": {
+      "Volume": [
+        "default root has key (%I64x,%x,%I64x), expected subvolume"
+      ],
+      "resident": [
+        ".?AVCBtrfsNoResidentDataRunList@@",
+        ".?AVCNoneResidentNTFSDataRunList@@",
+        ".?AVCResidentNTFSDataRunList@@"
+      ],
+      "HFSPlus": [
+        "HFSPLUS"
+      ],
+      "inode": [
+        "no INODE_ITEMs in tree %I64x",
+        "couldn't find INODE_ITEM for root directory"
+      ],
+      "Btrfs": [
+        "\\BtrfsCache.txt",
+        ".\\BtrfsCache.txt",
+        "btrfs.compression",
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\BtrfsSearchDLL.pdb",
+        "BtrfsSearchDLL.dll",
+        "EUCreateBtrfsComplateSearcher",
+        "EUCreateBtrfsQuickSearcher",
+        ".?AVCBtrfsQuickSearch@@",
+        ".?AVCSearchedBtrfsPartitionInfo@@",
+        ".?AVCBtrfsFileProerties@@",
+        ".?AVCBtrfsNoResidentDataRunList@@"
+      ],
+      "subvolume": [
+        "default root has key (%I64x,%x,%I64x), expected subvolume"
+      ],
+      "chunk": [
+        "Found sys chunk Offset=%lld, Size=%lld, RootID=%lld, Type=%lld, NumStripes=%d, DevOffset=%lld",
+        "Found chunk Offset=%lld, Size=%lld, RootID=%lld, Type=%lld, NumStripes=%d, DevOffset=%lld",
+        "could not find chunk for %I64x in bootstrap",
+        "Lost scan chunk address=%lld, size=%lld"
+      ],
+      "stripe": [
+        "Found sys chunk Offset=%lld, Size=%lld, RootID=%lld, Type=%lld, NumStripes=%d, DevOffset=%lld",
+        "Found chunk Offset=%lld, Size=%lld, RootID=%lld, Type=%lld, NumStripes=%d, DevOffset=%lld"
+      ],
+      "tree": [
+        "no INODE_ITEMs in tree %I64x",
+        "could not find (%I64x,%x,%I64x) in root tree"
+      ],
+      "arc": [
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\BtrfsSearchDLL.pdb",
+        "BtrfsSearchDLL.dll",
+        "EUCreateBtrfsComplateSearcher",
+        "EUCreateBtrfsQuickSearcher",
+        ".?AVCBtrfsQuickSearch@@",
+        ".?AVIFileSystemSearchController@@",
+        ".?AVIQuickFileSystemSearchController@@",
+        ".?AVCSearchedBtrfsPartitionInfo@@",
+        ".?AVCSearchedPartitionInfo@@"
+      ],
+      "search": [
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\BtrfsSearchDLL.pdb",
+        "BtrfsSearchDLL.dll",
+        "EUCreateBtrfsComplateSearcher",
+        "EUCreateBtrfsQuickSearcher",
+        ".?AVCBtrfsQuickSearch@@",
+        ".?AVIFileSystemSearchController@@",
+        ".?AVIQuickFileSystemSearchController@@",
+        ".?AVCSearchedBtrfsPartitionInfo@@",
+        ".?AVCSearchedPartitionInfo@@"
+      ],
+      "scan": [
+        "Begin Scan Lost Files",
+        "Lost scan chunk address=%lld, size=%lld",
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\BtrfsSearchDLL.pdb"
+      ],
+      "quick": [
+        "EUCreateBtrfsQuickSearcher",
+        ".?AVCBtrfsQuickSearch@@",
+        ".?AVIQuickFileSystemSearchController@@"
+      ],
+      "lost": [
+        "Lost ParentID=%lld, ID=%lld, FileName=%s, Size=%lld",
+        "Begin Scan Lost Files",
+        "Lost scan chunk address=%lld, size=%lld"
+      ],
+      "debug": [
+        "IsDebuggerPresent"
+      ],
+      "Event": [
+        "SetEvent",
+        "ResetEvent",
+        "CreateEventW"
+      ]
+    }
+  },
+  "ReFSSearchDLL.dll": {
+    "classes": [
+      "CompleteFileSystemSearchController",
+      "DataRunList",
+      "FileNode",
+      "FileProperties",
+      "FileSystemNode",
+      "FileSystemSearchController",
+      "NoneResidentNTFSDataRunList",
+      "QuickFileSystemSearchController",
+      "ReFSDataRunList",
+      "RefsResidentDataRunList",
+      "SearchedPartitionInfo",
+      "efsQuickSearchFiles",
+      "efsSearchController",
+      "ype_info"
+    ],
+    "templates": [],
+    "keywords": {
+      "Volume": [
+        "System Volume Information"
+      ],
+      "resident": [
+        ".?AVCRefsResidentDataRunList@@",
+        ".?AVCNoneResidentNTFSDataRunList@@"
+      ],
+      "HFSPlus": [
+        "HFSPLUS"
+      ],
+      "tree": [
+        ".?AVRefsMSTreeHeaderDesc@refs@@",
+        ".?AURefsMSTreeHeaderDescImpl@refs@@",
+        ".?AV?$RefsBaseDataImplManager@URefsMSTreeHeaderDescImpl@refs@@@refs@@"
+      ],
+      "ReFS": [
+        "CHKPSUPBMSB+ReFSFSRS",
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\ReFSSearchDLL.pdb",
+        "ReFSSearchDLL.dll",
+        "EUCreateReFSQuickSearcher",
+        "EUCreateReFSSearcher",
+        ".?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8RefsQuickSearchFilesImpl@@EAA_N_KAEAPEAVRefsFileProperties@refs@@@ZPEAU3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@_N_KAEAPEAVRefsFileProperties@refs@@@std@@",
+        ".?AVRefsPartitionInformation@refs@@",
+        ".?AV?$_Func_base@_N_KAEAPEAVRefsFileProperties@refs@@@std@@",
+        ".?AVRefsQuickSearchFiles@@",
+        ".?AV?$_Ref_count_obj@VRefsBasicDevice@refs@@@std@@",
+        ".?AV?$_Binder@U_Unforced@std@@P8RefsQuickSearchFilesImpl@@EAA_N_KAEAPEAVRefsFileProperties@refs@@@ZPEAU3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@",
+        ".?AV?$_Func_base@XAEBVRefsNodeRecord@refs@@AEBV?$list@_KV?$allocator@_K@std@@@std@@_K@std@@",
+        ".?AV?$_Binder@U_Unforced@std@@P8RefsQuickSearchFilesImpl@@EAAXAEBVRefsNodeRecord@refs@@AEBV?$list@_KV?$allocator@_K@std@@@2@_K@ZPEAU3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@AEBU?$_Ph@$02@2@@std@@",
+        ".?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8RefsQuickSearchFilesImpl@@EAAXAEBVRefsNodeRecord@refs@@AEBV?$list@_KV?$allocator@_K@std@@@2@_K@ZPEAU3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@AEBU?$_Ph@$02@2@@std@@XAEBVRefsNodeRecord@refs@@AEBV?$list@_KV?$allocator@_K@std@@@2@_K@std@@",
+        ".?AVRefsSearchController@@",
+        ".?AURefsNodeRecordImpl@refs@@",
+        ".?AVRefsNodeRecord@refs@@",
+        ".?AV?$RefsBaseDataImplManager@URefsNodeRecordImpl@refs@@@refs@@",
+        ".?AURefsBaseDataImpl@refs@@",
+        ".?AVCReFSDataRunList@@"
+      ],
+      "metadata": [
+        ".?AVRefsMetadataBlockReference@refs@@",
+        ".?AURefsMetadataBlockRefrenceImpl@refs@@",
+        ".?AV?$RefsBaseDataImplManager@URefsMetadataBlockRefrenceImpl@refs@@@refs@@",
+        ".?AURefsMetadataBlockHeaderImpl@refs@@",
+        ".?AV?$RefsBaseDataImplManager@URefsMetadataBlockHeaderImpl@refs@@@refs@@",
+        ".?AVRefsMetadataBlockHeader@refs@@"
+      ],
+      "arc": [
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\ReFSSearchDLL.pdb",
+        "ReFSSearchDLL.dll",
+        "EUCreateReFSQuickSearcher",
+        "EUCreateReFSSearcher",
+        ".?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8RefsQuickSearchFilesImpl@@EAA_N_KAEAPEAVRefsFileProperties@refs@@@ZPEAU3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@_N_KAEAPEAVRefsFileProperties@refs@@@std@@",
+        ".?AVIFileSystemSearchController@@",
+        ".?AVRefsQuickSearchFiles@@",
+        ".?AVIQuickFileSystemSearchController@@",
+        ".?AV?$_Binder@U_Unforced@std@@P8RefsQuickSearchFilesImpl@@EAA_N_KAEAPEAVRefsFileProperties@refs@@@ZPEAU3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@",
+        ".?AVCSearchedPartitionInfo@@",
+        ".?AV?$_Binder@U_Unforced@std@@P8RefsQuickSearchFilesImpl@@EAAXAEBVRefsNodeRecord@refs@@AEBV?$list@_KV?$allocator@_K@std@@@2@_K@ZPEAU3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@AEBU?$_Ph@$02@2@@std@@",
+        ".?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8RefsQuickSearchFilesImpl@@EAAXAEBVRefsNodeRecord@refs@@AEBV?$list@_KV?$allocator@_K@std@@@2@_K@ZPEAU3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@AEBU?$_Ph@$02@2@@std@@XAEBVRefsNodeRecord@refs@@AEBV?$list@_KV?$allocator@_K@std@@@2@_K@std@@",
+        ".?AVICompleteFileSystemSearchController@@",
+        ".?AVRefsSearchController@@"
+      ],
+      "search": [
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\ReFSSearchDLL.pdb",
+        "ReFSSearchDLL.dll",
+        "EUCreateReFSQuickSearcher",
+        "EUCreateReFSSearcher",
+        ".?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8RefsQuickSearchFilesImpl@@EAA_N_KAEAPEAVRefsFileProperties@refs@@@ZPEAU3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@_N_KAEAPEAVRefsFileProperties@refs@@@std@@",
+        ".?AVIFileSystemSearchController@@",
+        ".?AVRefsQuickSearchFiles@@",
+        ".?AVIQuickFileSystemSearchController@@",
+        ".?AV?$_Binder@U_Unforced@std@@P8RefsQuickSearchFilesImpl@@EAA_N_KAEAPEAVRefsFileProperties@refs@@@ZPEAU3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@",
+        ".?AVCSearchedPartitionInfo@@",
+        ".?AV?$_Binder@U_Unforced@std@@P8RefsQuickSearchFilesImpl@@EAAXAEBVRefsNodeRecord@refs@@AEBV?$list@_KV?$allocator@_K@std@@@2@_K@ZPEAU3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@AEBU?$_Ph@$02@2@@std@@",
+        ".?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8RefsQuickSearchFilesImpl@@EAAXAEBVRefsNodeRecord@refs@@AEBV?$list@_KV?$allocator@_K@std@@@2@_K@ZPEAU3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@AEBU?$_Ph@$02@2@@std@@XAEBVRefsNodeRecord@refs@@AEBV?$list@_KV?$allocator@_K@std@@@2@_K@std@@",
+        ".?AVICompleteFileSystemSearchController@@",
+        ".?AVRefsSearchController@@"
+      ],
+      "scan": [
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\ReFSSearchDLL.pdb"
+      ],
+      "quick": [
+        "EUCreateReFSQuickSearcher",
+        ".?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8RefsQuickSearchFilesImpl@@EAA_N_KAEAPEAVRefsFileProperties@refs@@@ZPEAU3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@_N_KAEAPEAVRefsFileProperties@refs@@@std@@",
+        ".?AVRefsQuickSearchFiles@@",
+        ".?AVIQuickFileSystemSearchController@@",
+        ".?AV?$_Binder@U_Unforced@std@@P8RefsQuickSearchFilesImpl@@EAA_N_KAEAPEAVRefsFileProperties@refs@@@ZPEAU3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@",
+        ".?AV?$_Binder@U_Unforced@std@@P8RefsQuickSearchFilesImpl@@EAAXAEBVRefsNodeRecord@refs@@AEBV?$list@_KV?$allocator@_K@std@@@2@_K@ZPEAU3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@AEBU?$_Ph@$02@2@@std@@",
+        ".?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8RefsQuickSearchFilesImpl@@EAAXAEBVRefsNodeRecord@refs@@AEBV?$list@_KV?$allocator@_K@std@@@2@_K@ZPEAU3@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@AEBU?$_Ph@$02@2@@std@@XAEBVRefsNodeRecord@refs@@AEBV?$list@_KV?$allocator@_K@std@@@2@_K@std@@"
+      ],
+      "complete": [
+        ".?AVICompleteFileSystemSearchController@@"
+      ],
+      "debug": [
+        "IsDebuggerPresent"
+      ]
+    }
+  },
+  "ZfsSearchDLL.dll": {
+    "classes": [
+      "CompleteFileSystemSearchController",
+      "DataRunList",
+      "FileNode",
+      "FileProperties",
+      "FileSystemNode",
+      "FileSystemSearchController",
+      "QuickFileSystemSearchController",
+      "SearchedPartitionInfo",
+      "lambda_0de675be5758ce6987235b1921f77d8b>",
+      "lambda_1e42c831661bdcb328ff1e44648de476>",
+      "lambda_3cb9c92493e028cf5c8b2967fd6ee510>",
+      "ype_info"
+    ],
+    "templates": [],
+    "keywords": {
+      "HFSPlus": [
+        "HFSPLUS"
+      ],
+      "tree": [
+        "vdev_tree"
+      ],
+      "ZFS": [
+        "zfs_debug.txt",
+        "zfs_struct::ZfsDecider::addBlock::<lambda_0de675be5758ce6987235b1921f77d8b>::operator ()",
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\ZfsSearchDLL.pdb",
+        "ZfsSearchDLL.dll",
+        "EUCreateZFSQuickSearcher",
+        "EUCreateZFSSearcher",
+        ".?AVZfsFileProperties@zfs_struct@@",
+        ".?AVCZfsQuickSearch@zfs_struct@@",
+        ".?AVZfsQuickSearchStream@?A0x8962661c@@",
+        ".?AV?$_Ref_count_obj@VVdevDisk@zfs_struct@@@std@@",
+        ".?AV?$_Func_base@_NV?$shared_ptr@VZplNode_@zfs_struct@@@std@@@std@@",
+        ".?AV?$_Func_impl_no_alloc@V<lambda_3cb9c92493e028cf5c8b2967fd6ee510>@@_NV?$shared_ptr@VZplNode_@zfs_struct@@@std@@@std@@",
+        ".?AV?$_Ref_count_obj@V?$map@_JW4zio_compress@zfs_struct@@U?$less@_J@std@@V?$allocator@U?$pair@$$CB_JW4zio_compress@zfs_struct@@@std@@@4@@std@@@std@@",
+        ".?AVCStreamBase@zfs_struct@@",
+        ".?AV?$_Ref_count@VVdevLoc@zfs_struct@@@std@@",
+        ".?AVZfsDataRunlist@zfs_struct@@",
+        ".?AVCZfsSearchController@zfs_struct@@",
+        ".?AV?$enable_shared_from_this@VZplNode_@zfs_struct@@@std@@",
+        ".?AVZplNodeFile@zfs_struct@@",
+        ".?AV?$_Ref_count_obj@UUberData@VdevLoc@zfs_struct@@@std@@"
+      ],
+      "arc": [
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\ZfsSearchDLL.pdb",
+        "ZfsSearchDLL.dll",
+        "EUCreateZFSQuickSearcher",
+        "EUCreateZFSSearcher",
+        ".?AVCZfsQuickSearch@zfs_struct@@",
+        ".?AVIFileSystemSearchController@@",
+        ".?AVZfsQuickSearchStream@?A0x8962661c@@",
+        ".?AVIQuickFileSystemSearchController@@",
+        ".?AVCSearchedPartitionInfo@@",
+        ".?AVICompleteFileSystemSearchController@@",
+        ".?AVCZfsSearchController@zfs_struct@@"
+      ],
+      "search": [
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\ZfsSearchDLL.pdb",
+        "ZfsSearchDLL.dll",
+        "EUCreateZFSQuickSearcher",
+        "EUCreateZFSSearcher",
+        ".?AVCZfsQuickSearch@zfs_struct@@",
+        ".?AVIFileSystemSearchController@@",
+        ".?AVZfsQuickSearchStream@?A0x8962661c@@",
+        ".?AVIQuickFileSystemSearchController@@",
+        ".?AVCSearchedPartitionInfo@@",
+        ".?AVICompleteFileSystemSearchController@@",
+        ".?AVCZfsSearchController@zfs_struct@@"
+      ],
+      "scan": [
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\ZfsSearchDLL.pdb"
+      ],
+      "quick": [
+        "EUCreateZFSQuickSearcher",
+        ".?AVCZfsQuickSearch@zfs_struct@@",
+        ".?AVZfsQuickSearchStream@?A0x8962661c@@",
+        ".?AVIQuickFileSystemSearchController@@"
+      ],
+      "complete": [
+        ".?AVICompleteFileSystemSearchController@@"
+      ],
+      "debug": [
+        "zfs_debug.txt",
+        "IsDebuggerPresent"
+      ]
+    }
+  },
+  "PE_Tools.dll": {
+    "classes": [
+      "ype_info"
+    ],
+    "templates": [],
+    "keywords": {
+      "BTree": [
+        "subtree"
+      ],
+      "Attributes": [
+        "QueryCredentialAttributes",
+        "QueryContextAttributes",
+        "Failed to query security context attributes.",
+        "GetFileAttributesA"
+      ],
+      "chunk": [
+        "Chunk callback failed",
+        "chunked",
+        "Chunky upload is not supported by HTTP 1.0",
+        "Transfer-Encoding: chunked",
+        "no chunk, no close, no size. Assume close to signal end",
+        "Signaling end of chunked upload after trailers.",
+        "Signaling end of chunked upload via terminating chunk.",
+        "Failed reading the chunked-encoded stream",
+        "%s in chunked-encoding",
+        "Leftovers after chunking: % I64du bytes",
+        "CONNECT responded chunked",
+        "chunk reading DONE",
+        "Ignore chunked response-body"
+      ],
+      "tree": [
+        "onetree",
+        "subtree",
+        "streetAddress"
+      ],
+      "zap": [
+        "Hostname in DNS cache was stale, zapped",
+        "Hostname in DNS cache doesn't have needed family, zapped"
+      ],
+      "arc": [
+        "LDAP: search failed",
+        "Cannot SEARCH without a query string.",
+        "SEARCH %s",
+        "SEARCH",
+        ":Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December",
+        "node->clearChild();"
+      ],
+      "search": [
+        "LDAP: search failed",
+        "Cannot SEARCH without a query string.",
+        "SEARCH %s",
+        "SEARCH"
+      ],
+      "scan": [
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\PE_Tools.pdb",
+        "__stdio_common_vsscanf"
+      ],
+      "quick": [
+        "_crt_at_quick_exit"
+      ],
+      "complete": [
+        "SEC_E_INCOMPLETE_CREDENTIALS",
+        "SEC_E_INCOMPLETE_MESSAGE",
+        "SEC_I_COMPLETE_AND_CONTINUE",
+        "SEC_I_COMPLETE_NEEDED",
+        "SEC_I_INCOMPLETE_CREDENTIALS",
+        "File already completely uploaded",
+        "upload completely sent off: %I64d out of %I64d bytes",
+        "We are completely uploaded and fine",
+        "partial download completed, closing connection",
+        "File already completely downloaded",
+        "a DoH request is completed, %u to go",
+        "CompleteAuthToken failed: %s",
+        "CONNECT phase completed",
+        "Can't complete SOCKS4 connection to %d.%d.%d.%d:%d. (%d), request rejected or failed.",
+        "Can't complete SOCKS4 connection to %d.%d.%d.%d:%d. (%d), request rejected because SOCKS server cannot connect to identd on the client.",
+        "Can't complete SOCKS4 connection to %d.%d.%d.%d:%d. (%d), request rejected because the client program and identd report different user-ids.",
+        "Can't complete SOCKS4 connection to %d.%d.%d.%d:%d. (%d), Unknown.",
+        "Can't complete SOCKS5 connection to %s. (%d)"
+      ],
+      "full": [
+        "Disk full or allocation exceeded",
+        "Connection cache is full, closing the oldest one",
+        "Successfully compiled trailers."
+      ],
+      "deleted": [
+        "SEC_E_UNFINISHED_CONTEXT_DELETED"
+      ],
+      "recover": [
+        "Unrecoverable error in select/poll",
+        "Unrecoverable error in call to nameserver",
+        "schannel: an unrecoverable error occurred in a prior call",
+        "state not recoverable"
+      ],
+      "service": [
+        "service missing in parameters and hostname",
+        "service too long in hostname"
+      ],
+      "driver": [
+        "call pet_install_driver",
+        "pet_install_driver"
+      ],
+      "ioctl": [
+        "the ioctl callback returned %d",
+        "ioctl callback returned error %d",
+        "WSAIoctl"
+      ],
+      "pipe": [
+        "Found pending candidate for reuse and CURLOPT_PIPEWAIT is set",
+        "broken pipe",
+        "PeekNamedPipe"
+      ],
+      "log": [
+        "Login denied",
+        "Bad login part",
+        "SEC_E_LOGON_DENIED",
+        "SEC_E_SMARTCARD_LOGON_REQUIRED",
+        "SEC_I_LOCAL_LOGON",
+        "SEC_E_ILLEGAL_MESSAGE (0x%08X) - This error usually occurs when a fatal SSL/TLS alert is received (e.g. handshake failed). More detail may be available in the Windows System event log.",
+        "LOGOUT",
+        "LOGINDISABLED",
+        "LOGIN %s %s",
+        "petools.log",
+        ".?AVlogic_error@std@@"
+      ],
+      "debug": [
+        "IsDebuggerPresent"
+      ],
+      "Pipe": [
+        "Found pending candidate for reuse and CURLOPT_PIPEWAIT is set",
+        "broken pipe",
+        "PeekNamedPipe"
+      ],
+      "Mutex": [
+        "CreateMutexW",
+        "ReleaseMutex"
+      ],
+      "Event": [
+        "SEC_E_ILLEGAL_MESSAGE (0x%08X) - This error usually occurs when a fatal SSL/TLS alert is received (e.g. handshake failed). More detail may be available in the Windows System event log.",
+        "WSACreateEvent failed (%d)",
+        "WSAEnumNetworkEvents failed (%d)",
+        "WSACloseEvent failed (%d)",
+        "tftp_tx: internal error, event: %i",
+        "CreateEventExW",
+        "WSACloseEvent",
+        "WSACreateEvent",
+        "WSAEnumNetworkEvents",
+        "WSAEventSelect",
+        "WSAResetEvent",
+        "WSASetEvent",
+        "WSAWaitForMultipleEvents",
+        "CreateEventW"
+      ],
+      "Semaphore": [
+        "CreateSemaphoreW",
+        "CreateSemaphoreExW"
+      ]
+    }
+  },
+  "PubLog.dll": {
+    "classes": [
+      "DirectLog",
+      "EsLog",
+      "FileMappingLog",
+      "ype_info"
+    ],
+    "templates": [],
+    "keywords": {
+      "scan": [
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\PubLog.pdb"
+      ],
+      "log": [
+        "DRWLOG_{1BFCF65F-0766-4a71-B7A3-2EB2CD1412DE}",
+        "./log/DefaultLog.txt",
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\PubLog.pdb",
+        "PubLog.dll",
+        "?InitLog@@YAXPEBDW4LOGLEVEL@@W4LOGTYPE@@@Z",
+        "?Log@@YAXW4LOGLEVEL@@PEBDPEAPEAD@Z",
+        "?Log@@YAXW4LOGLEVEL@@PEBDZZ",
+        "?LogError@@YAXPEBDPEAPEAD@Z",
+        "?LogError@@YAXPEBDZZ",
+        "?LogInfo@@YAXPEBDPEAPEAD@Z",
+        "?LogInfo@@YAXPEBDZZ",
+        "?LogWarning@@YAXPEBDPEAPEAD@Z",
+        "?LogWarning@@YAXPEBDZZ",
+        ".?AVCDirectLog@@",
+        ".?AVIEsLog@@",
+        ".?AVCFileMappingLog@@"
+      ],
+      "debug": [
+        "?DebugTrace@@YAXPEBDPEAPEAD@Z",
+        "?DebugTrace@@YAXPEBDZZ",
+        "OutputDebugStringA",
+        "IsDebuggerPresent"
+      ],
+      "trace": [
+        "?DebugTrace@@YAXPEBDPEAPEAD@Z",
+        "?DebugTrace@@YAXPEBDZZ",
+        "?ReleaseTrace@@YAXPEBDPEAPEAD@Z",
+        "?ReleaseTrace@@YAXPEBDZZ"
+      ],
+      "Mutex": [
+        "ReleaseMutex",
+        "CreateMutexA"
+      ],
+      "Event": [
+        "SetEvent",
+        "ResetEvent",
+        "CreateEventW"
+      ]
+    }
+  },
+  "cloud_session.dll": {
+    "classes": [
+      "DownloadTask",
+      "HasThumbnail",
+      "ListAllItems",
+      "cloud_file_stream",
+      "cloud_session",
+      "drive_cloud_stream",
+      "drive_session",
+      "est_file_stream",
+      "est_session",
+      "ile_stream",
+      "lambda_04b37337ceea9d8c7e6039802f22ddd6>",
+      "lambda_0714623d1b90fcfe71ab7e28ecea5b71>",
+      "lambda_07dca83f9489825032bd549be3168602>",
+      "lambda_08bf901815bf871f8c0387db740152ad>",
+      "lambda_0bb2f60061d2a8ca14453804cfcfa74c>",
+      "lambda_10f9d2d145111362b93fd5b5d59f4420>",
+      "lambda_196c34357b0f8d062570a3284d9a4689>",
+      "lambda_1a89a9b0911a039d71430e0842bd96d4>",
+      "lambda_1ba82c3cc28be9265057d9c41848903b>",
+      "lambda_205d5c541439dbb9c49dd8bca0f94728>",
+      "lambda_222346f18cb498ff31bf7e9882b65f88>",
+      "lambda_2eb5fa79f53e5fc66eecd6a08530246b>",
+      "lambda_2edc3c652268dfff890825dec562ed91>",
+      "lambda_2f4fc8dfd2f30142bdd064cfcea0cbe3>",
+      "lambda_340b9c1478fb4ec1fcccd71782fad987>",
+      "lambda_3514818dcfe595679593ac133f3c1e26>",
+      "lambda_3a51cc8cca2c083751deb9855e1a6cd6>",
+      "lambda_3b60946a8595a47be65bf771af4471e3>",
+      "lambda_3d893b73487d1a346997753628185888>",
+      "lambda_41cd88e45f7a2d34592cc12f0172ecb8>",
+      "lambda_48691e9f9e9ffa90759a1ba50b338a75>",
+      "lambda_494488728888e6f82a23723cd2e0e663>",
+      "lambda_49632558e3adfe32cf9b28ff753c73d9>",
+      "lambda_49f5f447cedb727ab004e41b9f40f429>",
+      "lambda_4ea4bc068c8ea4366458b7eaee5913c5>",
+      "lambda_56b7d3d1e382f5bfe6081eb1fa993b21>",
+      "lambda_579900a27ce4e3ef48c2be0be08782bc>",
+      "lambda_5b20e8f275238bab4fddb37a0587ee8e>",
+      "lambda_5c8f3f86d3c6304c4323ded078ead62f>",
+      "lambda_5dcc1b5dfa4eb53ea89ce5ff5f0c4bb9>",
+      "lambda_665b87e1e7522d1b3c9b4ee2029b559d>",
+      "lambda_6b723ade51aa686d33f4d053693a6a5d>",
+      "lambda_713ee8bbd6b08550d59c52695cab5ce3>",
+      "lambda_763529b0c7473cbc215a52d189ac9b18>",
+      "lambda_78d99ae0c2847f0975d5ebc26db17e1d>",
+      "lambda_7902d48375a875997e20dbfda229fe90>",
+      "lambda_797990bfa73d781f5165d076ea3577c7>",
+      "lambda_7a4c0edd7b0431dcafe9315640e5b331>",
+      "lambda_7b214b8ce6f7d941ff9acc5310e29d25>",
+      "lambda_7cb4e0c59a024297ad4128f7ea737ac7>",
+      "lambda_80bd204c645a3c0335bcd425bc687a48>",
+      "lambda_8366116165a94b34cebcd801d2cba684>",
+      "lambda_86c129aeba355f97edae21c3f7af602c>",
+      "lambda_888790f1609c55e471d4d6e571f449bc>",
+      "lambda_89350516d997a3d82b0483637a3458ea>",
+      "lambda_8cec8662ff1d451a2aedede23fe39114>",
+      "lambda_9262c9fb5c1e2c6dc7fa634d6c427a83>",
+      "lambda_949684059e76173f5b811ead1193a7a1>",
+      "lambda_95502df2ba4a261891568de00f94e0f9>",
+      "lambda_961016973de40a6e77ea780acf466ea9>",
+      "lambda_99255b27bf82c0a64b5c4788ebe21be2>",
+      "lambda_9b89a333e25aa5f2b9acb0dd9421f818>",
+      "lambda_a03bec514be48deec9044a896cb88299>",
+      "lambda_a07167602b08f8bc750b691724e5e902>",
+      "lambda_a180c0d4d728b7b34e20e676f58caebc>",
+      "lambda_a27022bb4e02e45533d1414cc96ff7e7>",
+      "lambda_a4a8a18c7fc5d7346c0756d02055764b>",
+      "lambda_a67451185a25daa9a5eac5132e940673>",
+      "lambda_a7670e9d6a1e4a4d2322c85ce08b52ae>",
+      "lambda_ab560dca2f02bcd1bf9349a3fdaec141>",
+      "lambda_ad9681daf98c9a3ba13d3ea5fa9b5d65>",
+      "lambda_b0ccbc1ddda1d71df287feb470c7dd1f>",
+      "lambda_b1dd2c0b3f7fd4866557157f2df26d77>",
+      "lambda_b6da1ba2113e75a53785f3615d8b239d>",
+      "lambda_b7f11a64d29821ef7253740eacc0ab3a>",
+      "lambda_b9553a4b30231e52e41647f89d7bcab1>",
+      "lambda_bb217bae233ff5b47823b38ac2021b4a>",
+      "lambda_bb3ea35c7a129712676a4a6472ecdc6a>",
+      "lambda_bff586817c41924e3808163cb3a55da7>",
+      "lambda_d4ef44f28584ce66aaa2cbd681e6dcab>",
+      "lambda_d7038f19c54fe3bf18962a323762c8ed>",
+      "lambda_da94ac0807483290e80f23aaf3ec64e1>",
+      "lambda_e179809246536160bb72c197dcb758a6>",
+      "lambda_ec02d6f3914d47a8fd4c0a149e332080>",
+      "lambda_ef12b714176adda68074b951a3fab0dc>",
+      "lambda_f0652d3e51155aec6ed5307b57472538>",
+      "lambda_f1bc337cc8af19ba22f67889357510b6>",
+      "lambda_f25c37099038263181b5186a3fa41b37>",
+      "lambda_f272dca2f5e6bb920dcf4ce61c1250c0>",
+      "lambda_f2902cad11d229a3530f29d3048b9757>",
+      "lambda_f9c699ea9f37b1278aa2f9d50264ee21>",
+      "nedrive_cloud_stream",
+      "nedrive_download_stream",
+      "nedrive_session",
+      "olders_list",
+      "olders_list_base",
+      "on_base",
+      "on_with_auto_release",
+      "oogle_download_stream",
+      "ownload_stream",
+      "ox_file_stream",
+      "ox_session",
+      "ropbox_download_stream",
+      "ropbox_file_stream",
+      "ropbox_folders_list",
+      "ropbox_session",
+      "xceptionImp",
+      "ype_info"
+    ],
+    "templates": [],
+    "keywords": {
+      "scan": [
+        "E:\\DRW\\_drw_main\\DRWIntelligentScan\\bin\\Release\\x64\\cloud_session.pdb"
+      ],
+      "complete": [
+        "?_complete@http_msg_base@details@http@web@@UEAAX_KAEBVexception_ptr@std@@@Z",
+        "?_LogWorkItemCompleted@_TaskEventLogger@details@Concurrency@@QEAAXXZ",
+        "?_LogTaskExecutionCompleted@_TaskEventLogger@details@Concurrency@@QEAAXXZ",
+        "?_LogTaskCompleted@_TaskEventLogger@details@Concurrency@@QEAAXXZ"
+      ],
+      "deleted": [
+        "dropbox_session::getDeletedFileLastVersion"
+      ],
+      "log": [
+        "?_LogWorkItemCompleted@_TaskEventLogger@details@Concurrency@@QEAAXXZ",
+        "?_LogWorkItemStarted@_TaskEventLogger@details@Concurrency@@QEAAXXZ",
+        "?_LogTaskExecutionCompleted@_TaskEventLogger@details@Concurrency@@QEAAXXZ",
+        "?_LogTaskCompleted@_TaskEventLogger@details@Concurrency@@QEAAXXZ",
+        "?_LogCancelTask@_TaskEventLogger@details@Concurrency@@QEAAXXZ",
+        "?_LogScheduleTask@_TaskEventLogger@details@Concurrency@@QEAAX_N@Z",
+        ".?AVlogic_error@std@@"
+      ],
+      "debug": [
+        "IsDebuggerPresent"
+      ],
+      "Mutex": [
+        "auth_mutex can't be acquired",
+        "auth_mutex can't be acquired",
+        ".?AV?$_Ref_count_obj@Vtimed_mutex@std@@@std@@"
+      ],
+      "Event": [
+        "?_LogWorkItemCompleted@_TaskEventLogger@details@Concurrency@@QEAAXXZ",
+        "?_LogWorkItemStarted@_TaskEventLogger@details@Concurrency@@QEAAXXZ",
+        "?_LogTaskExecutionCompleted@_TaskEventLogger@details@Concurrency@@QEAAXXZ",
+        "?_LogTaskCompleted@_TaskEventLogger@details@Concurrency@@QEAAXXZ",
+        "?_LogCancelTask@_TaskEventLogger@details@Concurrency@@QEAAXXZ",
+        "?_LogScheduleTask@_TaskEventLogger@details@Concurrency@@QEAAX_N@Z",
+        "SetEvent",
+        "ResetEvent",
+        "CreateEventW",
+        ".?AV?$_Ref_count_obj@U?$_Task_completion_event_impl@H@details@Concurrency@@@std@@",
+        ".?AV?$_Ref_count_obj@U?$_Task_completion_event_impl@_N@details@Concurrency@@@std@@",
+        ".?AV?$_Ref_count_obj@U?$_Task_completion_event_impl@J@details@Concurrency@@@std@@",
+        ".?AV?$_Ref_count_obj@U?$_Task_completion_event_impl@_K@details@Concurrency@@@std@@",
+        ".?AV?$_Ref_count_obj@U?$_Task_completion_event_impl@E@details@Concurrency@@@std@@",
+        ".?AV?$_Ref_count_obj@U?$_Task_completion_event_impl@U?$pair@U?$pair@V?$tuple@_NPEAUItemInfo@@H@std@@_K@std@@PEAV_CancellationTokenState@details@Concurrency@@@std@@@details@Concurrency@@@std@@"
+      ]
+    }
+  },
+  "AliyunWrap.dll": {
+    "classes": [
+      "ype_info"
+    ],
+    "templates": [],
+    "keywords": {
+      "BTree": [
+        "subtree"
+      ],
+      "Attributes": [
+        "QueryCredentialAttributes",
+        "QueryContextAttributes",
+        "Failed to query security context attributes.",
+        "GetFileAttributesW"
+      ],
+      "chunk": [
+        "Chunk callback failed",
+        "chunked",
+        "Chunky upload is not supported by HTTP 1.0",
+        "Transfer-Encoding: chunked",
+        "no chunk, no close, no size. Assume close to signal end",
+        "Signaling end of chunked upload after trailers.",
+        "Signaling end of chunked upload via terminating chunk.",
+        "Failed reading the chunked-encoded stream",
+        "%s in chunked-encoding",
+        "Leftovers after chunking: % I64du bytes",
+        "CONNECT responded chunked",
+        "chunk reading DONE",
+        "Ignore chunked response-body"
+      ],
+      "tree": [
+        "onetree",
+        "subtree",
+        "streetAddress"
+      ],
+      "zap": [
+        "Hostname in DNS cache was stale, zapped",
+        "Hostname in DNS cache doesn't have needed family, zapped"
+      ],
+      "arc": [
+        "LDAP: search failed",
+        "SEARCH",
+        "Cannot SEARCH without a query string.",
+        "SEARCH %s"
+      ],
+      "search": [
+        "LDAP: search failed",
+        "SEARCH",
+        "Cannot SEARCH without a query string.",
+        "SEARCH %s"
+      ],
+      "scan": [
+        "__stdio_common_vsscanf"
+      ],
+      "complete": [
+        "SEC_E_INCOMPLETE_CREDENTIALS",
+        "SEC_E_INCOMPLETE_MESSAGE",
+        "SEC_I_COMPLETE_AND_CONTINUE",
+        "SEC_I_COMPLETE_NEEDED",
+        "SEC_I_INCOMPLETE_CREDENTIALS",
+        "File already completely uploaded",
+        "upload completely sent off: %I64d out of %I64d bytes",
+        "We are completely uploaded and fine",
+        "File already completely downloaded",
+        "partial download completed, closing connection",
+        "a DoH request is completed, %u to go",
+        "CompleteAuthToken failed: %s",
+        "CONNECT phase completed",
+        "Can't complete SOCKS4 connection to %d.%d.%d.%d:%d. (%d), request rejected or failed.",
+        "Can't complete SOCKS4 connection to %d.%d.%d.%d:%d. (%d), request rejected because SOCKS server cannot connect to identd on the client.",
+        "Can't complete SOCKS4 connection to %d.%d.%d.%d:%d. (%d), request rejected because the client program and identd report different user-ids.",
+        "Can't complete SOCKS4 connection to %d.%d.%d.%d:%d. (%d), Unknown.",
+        "Can't complete SOCKS5 connection to %s. (%d)"
+      ],
+      "full": [
+        "Disk full or allocation exceeded",
+        "Connection cache is full, closing the oldest one",
+        "Successfully compiled trailers."
+      ],
+      "deleted": [
+        "SEC_E_UNFINISHED_CONTEXT_DELETED"
+      ],
+      "recover": [
+        "Unrecoverable error in select/poll",
+        "Unrecoverable error in call to nameserver",
+        "schannel: an unrecoverable error occurred in a prior call"
+      ],
+      "service": [
+        "service missing in parameters and hostname",
+        "service too long in hostname"
+      ],
+      "ioctl": [
+        "the ioctl callback returned %d",
+        "ioctl callback returned error %d",
+        "WSAIoctl"
+      ],
+      "pipe": [
+        "Found pending candidate for reuse and CURLOPT_PIPEWAIT is set",
+        "PeekNamedPipe"
+      ],
+      "log": [
+        "sls_log_init",
+        "x-log-",
+        "d:\\svn\\share_lib\\99_publiclibrary\\aliyunlog-2017\\userinfocollect\\aliyun-vs2017-lib\\aliyun\\src\\log_api.cpp",
+        "/logstores/",
+        "x-log-apiversion:0.6.0",
+        "x-log-compresstype:lz4",
+        "x-log-signaturemethod:hmac-sha1",
+        "x-log-bodyrawsize:%d",
+        "Authorization:LOG %s:%s",
+        "x-log-apiversion:0.6.0",
+        "x-log-bodyrawsize:%d",
+        "x-log-compresstype:lz4",
+        "x-log-signaturemethod:hmac-sha1",
+        "/logstores/%s/shards/lb",
+        "x-log-apiversion:0.6.0",
+        "x-log-bodyrawsize:%d",
+        "x-log-compresstype:lz4",
+        "x-log-signaturemethod:hmac-sha1",
+        "/logstores/%s/shards/lb",
+        "log-c-lite_0.1.0"
+      ],
+      "debug": [
+        "OutputDebugStringA",
+        "IsDebuggerPresent"
+      ],
+      "Pipe": [
+        "Found pending candidate for reuse and CURLOPT_PIPEWAIT is set",
+        "PeekNamedPipe"
+      ],
+      "Mutex": [
+        "CreateMutexW",
+        "ReleaseMutex"
+      ],
+      "Event": [
+        "SEC_E_ILLEGAL_MESSAGE (0x%08X) - This error usually occurs when a fatal SSL/TLS alert is received (e.g. handshake failed). More detail may be available in the Windows System event log.",
+        "WSACreateEvent failed (%d)",
+        "WSAEnumNetworkEvents failed (%d)",
+        "WSACloseEvent failed (%d)",
+        "tftp_tx: internal error, event: %i",
+        "WSACloseEvent",
+        "WSACreateEvent",
+        "WSAEnumNetworkEvents",
+        "WSAEventSelect",
+        "WSAResetEvent",
+        "WSAWaitForMultipleEvents",
+        "SetEvent",
+        "ResetEvent",
+        "CreateEventW",
+        "OpenEventW"
+      ]
+    }
+  }
+}
